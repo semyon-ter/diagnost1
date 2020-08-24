@@ -1,0 +1,49 @@
+.popups-box
+	posfix()
+	t 0
+	l 0
+	w 100%
+	h 100% 
+	zIn 200
+	pointer-events: none
+	op 0
+	tPD(.3s)
+	bgColor $color3-2-t1
+	dflex()
+	overflow auto 
+	flex-wrap wrap
+	align-items center
+	justify-content center
+	&.show
+		pointer-events auto
+		op 1
+	.popup-bg
+		posabs()
+		t 0
+		l 0 
+		w 100%
+		h 100% 
+		zIn 205
+		dflex()
+		justify-content flex-end
+		p 30px
+		bbox()
+	.popup-item
+		posrel()
+		zIn 210
+		bgColor $color1-1
+		p 30px
+		bbox()
+		bRad(5px)
+		dnone()
+		&.show 
+			dblock()	
+	.popup-close
+		w 40px
+		h 40px
+		bgPos(center)
+		bgNR()
+		bgSize(contain)
+		tPD(.3s)
+		cursor pointer
+		bgImg url(pics/icons/close.svg)

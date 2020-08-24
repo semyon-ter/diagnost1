@@ -1,0 +1,167 @@
+html, body
+  padding 0px
+  margin 0px
+  ffam($FONT3)
+  background-size cover
+     
+  
+/*body
+  dflex()   
+.class  
+  width: "calc(100% - %s - %s)" % ($padding-main-wrap-l $padding-main-wrap-r) 
+.class2
+  width: "calc(100% - %s)" % $padding-main-wrap-r   
+
+  */
+  
+.ov-hidden
+  overflow hidden  
+
+button, input[type=submit], input[type=button], input[type=reset]
+  crossB(appearance,none)
+  
+dev-view(devt='')
+  .dev-dn-{devt} 
+    display none !important
+  .dev-db-{devt}
+    display block !important
+  .dev-dib-{devt}
+    display inline-block !important
+  .dev-dflex-{devt}
+    display flex !important
+  
+row-cols(rc,dsuf='') 
+  for rc in 1..100
+    .col{dsuf}-{rc}
+      width (rc*1%) !important
+ 
+row-cols-divid(rcnum,rcmax,rcdev='') 
+  for rcmax in 3..12  
+    for rcnum in 1..rcmax
+      .col{rcdev}-{rcnum}-{rcmax} 
+        width (100%/rcmax*rcnum) !important
+        
+dev-view(devt='main')        
+row-cols(rc,dsuf='')         
+row-cols-divid(rcnum,rcmax,rcdev='')    
+  
+@media all and (max-width $device_size_full)
+  dev-view(devt='full')      
+  row-cols(rc,dsuf=$device_suff_full)  
+  row-cols-divid(rcnum,rcmax,rcdev=$device_suff_full)       
+@media all and (max-width $device_size_lap)
+  dev-view(devt='lap')
+  row-cols(rc,dsuf=$device_suff_lap)  
+  row-cols-divid(rcnum,rcmax,rcdev=$device_suff_lap)   
+@media all and (max-width $device_size_desk)
+  dev-view(devt='desk')
+  row-cols(rc,dsuf=$device_suff_desk)  
+  row-cols-divid(rcnum,rcmax,rcdev=$device_suff_desk)   
+@media all and (max-width $device_size_pad)
+  dev-view(devt='pad')
+  row-cols(rc,dsuf=$device_suff_pad)
+  row-cols-divid(rcnum,rcmax,rcdev=$device_suff_pad)   
+@media all and (max-width $device_size_mob)
+  dev-view(devt='mob')
+  row-cols(rc,dsuf=$device_suff_mob)   
+  row-cols-divid(rcnum,rcmax,rcdev=$device_suff_mob)          
+
+img border  none
+button,input,select,textarea
+  font-family $FONT3
+  fwht 100
+  outline  none
+
+.page-wrapper
+  posrel() 
+.page-container
+  maxWth $WIDTH
+  w 100%
+  margin 0px auto  
+
+ 
+.tac
+  tcenter()
+.tar
+  tright()
+.tal
+  tleft()
+
+.l
+  float left
+.r
+  float right
+
+.both
+  clear both
+.res
+  display  none
+  c $COLOR
+  tcenter()
+
+.tbclear
+  clear()
+
+.row
+  clear()
+  dflex()
+  flex-wrap wrap
+  ml -15px
+  mr -15px
+.col
+  pl 15px
+  pr 15px
+  bbox()
+
+.none
+  dnone()   
+
+marg(zt)
+for zt in 1..100
+  .mt-{zt}
+    mt((1px*zt)imp())
+  .mr-{zt}
+    mr((1px*zt)imp())
+  .mb-{zt}
+    mb((1px*zt)imp())
+  .ml-{zt}
+    ml((1px*zt)imp())
+marg(1,300)
+
+.logo
+  dinblock()
+  vertical-align top
+  img
+    dblock()
+    w 100%
+  span
+    dblock()
+    fsize 26px
+    ffam($FONT5)
+    lh 1.18
+    ttUp() 
+    c $color1-1
+
+.roller 
+  posrel()
+    
+.ps-container.roller
+  &.ps-in-scrolling, &.ps-x, &.ps-y, &.ps-active-x, &.ps-active-y 
+    & > .ps-scrollbar-x-rail
+      h 10px
+      bgColor transparent      
+    & > .ps-scrollbar-y-rail
+      w 10px
+      bgColor transparent
+    &:hover, &:active 
+      & > .ps-scrollbar-x-rail, & > .ps-scrollbar-y-rail
+        &:hover, &:active
+          bgColor transparent
+      & > .ps-scrollbar-x-rail
+        &:hover, &:active
+          & > .ps-scrollbar-x
+            h 6px
+      & > .ps-scrollbar-y-rail
+        &:hover, &:active
+          & > .ps-scrollbar-y
+            w 6px  

@@ -1,0 +1,65 @@
+ul
+	&.nav-menu
+		list-style none
+		p(11px 0)
+		bbox()
+		m 0  
+		& > li 
+			& > .nav-menu-wrap
+				dblock()
+				p(13px 23px)
+				bbox()
+				tPD(.3s)
+			&:hover, &.selected
+				& > .nav-menu-wrap
+					bgColor $color3-3
+			&.nav-menu-parent
+				& > .nav-menu-wrap
+					dflex()
+					align-items center
+					p 0 
+					pl 19px
+					.nav-parent-angel
+						w 16px
+						h 16px
+						posrel()
+						cursor pointer
+						mr 5px
+						&:before
+							content ''
+							posabs()
+							t 50%
+							l 50%
+							tPD(.3s)
+							crossB(transform-origin,50% 50%)
+							ml -3px
+							mt -4px 
+							bl(6px solid $color2-1)
+							bt(4px solid transparent)
+							bb(4px solid transparent)
+							br 0
+					& > a
+						w calc(100% - 21px)
+						p(13px 23px 13px 0)
+						bbox()
+				&.open
+					& > .nav-menu-wrap
+						.nav-parent-angel
+							&:before
+								tf(rotate(90deg))					
+		ul.sub-nav-menu
+			dnone()
+	&.sub-nav-menu
+		list-style none
+		m 0
+		p 0
+		li
+			a
+				dblock()
+				bbox()
+				p(13px 23px 13px 40px)	
+				tPD(.3s)	
+			&:hover, &.selected
+				bgColor $color3-3
+					
+

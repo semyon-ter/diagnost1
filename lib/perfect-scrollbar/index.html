@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Скроллбар - perfect-scrollbar | pcvector.net</title>
+		<link href="css/perfect-scrollbar.min.css" rel="stylesheet">
+		<link href="css/demo.css" rel="stylesheet">
+	</head>
+ <body>
+
+ <div class="top-panel-static">
+	<div class="top-panel-inner">
+		<a class="top-panel-back-url" href="http://pcvector.net/scripts/tabs/471-perfect-scrollbar.html">
+			<div class="top-panel-logo" title="Назад к статье"></div>
+		</a>
+	</div>
+</div>
+ 
+<div class='body'>
+	<h1 class='logo'>perfect-scrollbar</h1>
+	<p class='lead' style='text-align:center;'>Минималистичный плагин кастомизации скроллбара</p>
+	<div class='description'>
+		<h2 class='subtitle'>Особенности</h2>
+		<p class='lead list'>Нет никаких CSS изменений с оригинальным элементом</p>
+		<p class='lead list'>Не влияет на дизайн оригинальной верстки верстку</p>
+		<p class='lead list'>Скроллбар полностью видоизменяем через CSS</p>
+		<p class='lead list'>Размер скроллбара и позиция могут обновляться</p>
+		<h2 class='subtitle'>Демо</h2>
+		<div id='Demo'>
+			<div class='content'></div>
+		</div>
+		<div style='margin-top:15px;'>
+			<div class='input-prepend'>
+				<span class='add-on' style='width:100px;'>Ширина: </span>
+				<input type='text' id='Width' placeholder='600'>
+			</div>
+			<div class='input-prepend'>
+				<span class='add-on' style='width:100px;'>Высота: </span>
+				<input type='text' id='Height' placeholder='400'>
+			</div>
+			<button class='btn btn-primary' onclick='changeSize()'>Изменить размер!</button>
+		</div>
+		<h2 class='subtitle'>Код</h2>
+<pre style='text-align:left;width:500px;margin:0px auto;'>
+function changeSize() {
+	var width = parseInt($("#Width").val());
+	var height = parseInt($("#Height").val());
+
+	$("#Demo").width(width).height(height);
+
+	// update scrollbars
+	$('#Demo').perfectScrollbar('update');
+
+	// or even with vanilla JS!
+	Ps.update(document.getElementById('Demo'));
+}
+
+$(function() {
+	$('#Demo').perfectScrollbar();
+
+	// with vanilla JS!
+	Ps.initialize(document.getElementById('Demo'));
+});
+</pre>
+
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/perfect-scrollbar.min.js"></script>
+<script>
+      function changeSize() {
+        var width = parseInt($("#Width").val());
+        var height = parseInt($("#Height").val());
+
+        if(!width || isNaN(width)) {
+          width = 600;
+        }
+        if(!height || isNaN(height)) {
+          height = 400;
+        }
+        $("#Demo").width(width).height(height);
+
+        // update perfect scrollbar
+        Ps.update(document.getElementById('Demo'));
+      }
+      $(function() {
+        Ps.initialize(document.getElementById('Demo'));
+      });
+</script>
+
+<!-- pcvector.net -->
+<script type="text/javascript" src="http://pcvector.net/_demo/demo.js"></script>
+<!-- /pcvector.net -->
+</body>
+</html>
