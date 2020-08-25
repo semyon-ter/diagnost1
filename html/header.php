@@ -5,20 +5,10 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<meta name="keywords" content="">
 		<meta name="description" content="">
-		<title>Новый сайт</title>
-		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-		<!--script(src="js/jquery.min.js")-->
-		<script src="js/jquery-3.4.1.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">   </script>
-		<script src="lib/bootstrap/js/bootstrap.js">   </script>
-		<script src="js/all.js">   </script>
+		<title>Новый сайт        </title>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link rel="icon" href="favicon.png" type="image/x-icon">
 		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-		<link rel="stylesheet" href="lib/owlcarousel/owl.carousel.css">
-		<link rel="stylesheet" href="lib/owlcarousel/owl.theme.default.css">
-		<script src="lib/owlcarousel/owl.carousel.js"></script>
-		<script src="lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
 		<link rel="stylesheet" href="lib/perfect-scrollbar/css/perfect-scrollbar.css">
 	</head>
 	<body> 
@@ -41,5 +31,9 @@
 				<input type="submit" value="Перезвонить">
 			</div>
 		</div>
+		<script src="js/jquery-3.5.1.js"></script>
+		<script src="src-main/common.js"></script>
+		<script src="js/all.js"></script>
+		<script src="lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js">   </script>
 	</body>
 </html>

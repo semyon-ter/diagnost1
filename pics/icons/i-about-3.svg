@@ -1,0 +1,37 @@
+<svg viewBox="0 0 127 95" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clippath4" transform="">
+      <path d="M 0 94.998 L 126.645 94.998 L 126.645 0 L 0 0 Z" style="fill: none; clip-rule: nonzero;"></path>
+    </clipPath>
+  </defs>
+  <g transform="matrix(1, 0, 0, -1, 0, 95)">
+    <g transform="">
+      <path d="M 0 94.998 L 126.645 94.998 L 126.645 0 L 0 0 Z" style="fill: none;"></path>
+    </g>
+    <g style="clip-path: url(#clippath4);">
+      <g transform="translate(31.8921 79.3965)">
+        <path d="M 0 0 C 17.614 0 31.891 -14.281 31.891 -31.896 C 31.891 -49.514 17.614 -63.795 0 -63.795 C -17.614 -63.795 -31.892 -49.514 -31.892 -31.896 C -31.892 -14.281 -17.614 0 0 0" style="fill: rgb(251, 42, 105); fill-rule: evenodd; fill-opacity: 1;"></path>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath4);">
+      <g transform="translate(125.6445 47.5)">
+        <path d="M 0 0 C 0 -25.682 -20.819 -46.5 -46.5 -46.5 C -72.182 -46.5 -93 -25.682 -93 0 C -93 25.68 -72.182 46.498 -46.5 46.498 C -20.819 46.498 0 25.68 0 0 Z" style="fill: none; stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"></path>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath4);">
+      <g transform="translate(54.4512 67.7969)">
+        <path d="M 0 0 L 0 -28.617 C 0 -42.008 10.956 -52.965 24.346 -52.965 L 25.04 -52.965 C 38.43 -52.965 49.387 -42.008 49.387 -28.617 L 49.387 0 L 24.693 12.369 L 0 0 Z" style="fill: none; stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"></path>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath4);">
+      <g transform="translate(88.9141 45.1543)">
+        <path d="M 0 0 C 0 5.592 -4.534 10.125 -10.126 10.125 C -15.718 10.125 -20.252 5.592 -20.252 0 C -20.252 -5.592 -15.718 -10.125 -10.126 -10.125 C -4.534 -10.125 0 -5.592 0 0 Z" style="fill: none; stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-miterlimit: 0; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px; stroke-dashoffset: 0px;"></path>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath4);">
+      <g transform="translate(89.0684 61.832)">
+        <path d="M 0 0 L 0 -27.002" style="fill: none; stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-miterlimit: 0; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px; stroke-dashoffset: 0px;"></path>
+      </g>
+    </g>
+  </g>
+</svg>

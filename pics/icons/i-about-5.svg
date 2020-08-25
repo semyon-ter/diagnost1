@@ -1,0 +1,33 @@
+<svg viewBox="0 0 127 95" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clippath7" transform="">
+      <path d="M 0 95 L 126.659 95 L 126.659 0 L 0 0 Z" style="fill: none; clip-rule: nonzero;"></path>
+    </clipPath>
+  </defs>
+  <g transform="matrix(1, 0, 0, -1, 0, 95)">
+    <g transform="">
+      <path d="M 0 95 L 126.659 95 L 126.659 0 L 0 0 Z" style="fill: none;"></path>
+    </g>
+    <g style="clip-path: url(#clippath7);">
+      <g transform="translate(31.8921 79.3984)">
+        <path d="M 0 0 C 17.613 0 31.892 -14.281 31.892 -31.897 C 31.892 -49.514 17.613 -63.795 0 -63.795 C -17.614 -63.795 -31.892 -49.514 -31.892 -31.897 C -31.892 -14.281 -17.614 0 0 0" style="fill: rgb(251, 42, 105); fill-rule: evenodd; fill-opacity: 1;"></path>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath7);">
+      <g transform="translate(125.6592 47.501)">
+        <path d="M 0 0 C 0 -25.683 -20.819 -46.501 -46.5 -46.501 C -72.182 -46.501 -93 -25.683 -93 0 C -93 25.681 -72.182 46.499 -46.5 46.499 C -20.819 46.499 0 25.681 0 0 Z" style="fill: none; stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"></path>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath7);">
+      <g transform="">
+        <path d="M 101.096 30.274 L 57.222 30.274 L 57.222 68.282 L 101.096 68.282 Z" style="fill: none; stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"></path>
+      </g>
+      <g transform="translate(106.8091 73.2324)">
+        <path d="M 0 0 L -55.3 0 L -55.3 -47.907 L -32.477 -47.907 C -31.839 -49.969 -29.92 -51.465 -27.65 -51.465 C -25.38 -51.465 -23.46 -49.969 -22.823 -47.907 L 0 -47.907 L 0 0 Z" style="fill: none; stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-miterlimit: 0; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px; stroke-dashoffset: 0px;"></path>
+      </g>
+      <g transform="translate(79.1592 67.7822)">
+        <path d="M 0 0 L 0 -40.875" style="fill: none; stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-miterlimit: 0; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px; stroke-dashoffset: 0px;"></path>
+      </g>
+    </g>
+  </g>
+</svg>

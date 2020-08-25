@@ -1,8 +1,8 @@
-html, body
+/*html, body
   padding 0px
   margin 0px
   ffam($FONT3)
-  background-size cover
+  background-size cover*/
      
   
 /*body
@@ -66,18 +66,28 @@ row-cols-divid(rcnum,rcmax,rcdev='')
   row-cols(rc,dsuf=$device_suff_mob)   
   row-cols-divid(rcnum,rcmax,rcdev=$device_suff_mob)          
 
-img border  none
+/*img border  none
 button,input,select,textarea
   font-family $FONT3
   fwht 100
-  outline  none
+  outline  none*/
 
 .page-wrapper
-  posrel() 
+  posrel()
+  &.section
+    minHt initial
+    pt 0 
 .page-container
   maxWth $WIDTH
   w 100%
-  margin 0px auto  
+  margin 0px auto
+  bbox()
+  &.page-container_pad-1
+      pl 41px
+      pr 41px
+  &.section__content
+    maxWth $WIDTH
+    zIn 2
 
  
 .tac
@@ -117,7 +127,7 @@ button,input,select,textarea
   dnone()   
 
 marg(zt)
-for zt in 1..100
+for zt in 0..100
   .mt-{zt}
     mt((1px*zt)imp())
   .mr-{zt}
@@ -126,7 +136,20 @@ for zt in 1..100
     mb((1px*zt)imp())
   .ml-{zt}
     ml((1px*zt)imp())
-marg(1,300)
+marg(0,300)
+
+padd(rt)
+for rt in 0..100
+  .pt-{rt}
+    pt((1px*rt)imp())
+  .pr-{rt}
+    pr((1px*rt)imp())
+  .pb-{rt}
+    pb((1px*rt)imp())
+  .pl-{rt}
+    pl((1px*rt)imp())
+padd(0,300)
+
 
 .logo
   dinblock()
@@ -144,6 +167,16 @@ marg(1,300)
 
 .roller 
   posrel()
+  
+.fake-head
+  h 115px
+  
+.navi_colored
+  bgColor $color6-1
+  
+.footer_fix-bottom
+  possti()
+  t 100%      
     
 .ps-container.roller
   &.ps-in-scrolling, &.ps-x, &.ps-y, &.ps-active-x, &.ps-active-y 

@@ -1,0 +1,2 @@
+
+<div class="purpose__social social"><a href="./" class="social__facebook"></a><a href="./" class="social__instagram"></a><a href="./" class="social__twitter"></a><a href="./" class="social__youtube"></a></div>
