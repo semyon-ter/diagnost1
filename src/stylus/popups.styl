@@ -7,13 +7,12 @@
 	zIn 200
 	pointer-events: none
 	op 0
-	tPD(.3s)
-	bgColor $color3-2-t1
+	tPD(.3s)	
 	dflex()
 	overflow auto 
 	flex-wrap wrap
 	align-items center
-	justify-content center
+	justify-content center	
 	&.show
 		pointer-events auto
 		op 1
@@ -28,22 +27,46 @@
 		justify-content flex-end
 		p 30px
 		bbox()
+		bgColor $color4-4
+		lgrad($grad1, 90deg)
+		op .6
 	.popup-item
 		posrel()
 		zIn 210
 		bgColor $color1-1
-		p 30px
+		p(80px 35px 90px 100px)
 		bbox()
-		bRad(5px)
 		dnone()
+		&.popup-item__width-1
+			w 90%
+			maxWth 1454px
 		&.show 
-			dblock()	
+			dblock()
+		.popup-close
+			posabs()
+			t 57px
+			r 35px
+			zIn 2
+		.title
+			lht 1
+			fsize 25px
+			mb 20px
+			span
+				fsize 100%
+				lht 100%
+		p
+			mb 20px
+			fsize 22px
+			ffam(GL,sans-serif)
+			lht 1.4		
 	.popup-close
-		w 40px
-		h 40px
+		w 35px
+		h 35px
 		bgPos(center)
 		bgNR()
-		bgSize(contain)
+		bgSize(16px)
 		tPD(.3s)
+		bRad 50%
+		bgColor $color7-1
 		cursor pointer
-		bgImg url(pics/icons/close.svg)
+		bgImg url(pics/icons/close2.svg)

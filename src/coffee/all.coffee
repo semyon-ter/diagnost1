@@ -2,19 +2,28 @@ Sc =
   resize:()-> 
 
   scroll:()->    
-    if Sc.Win.scrollTop() > 30
+    ###if Sc.Win.scrollTop() > 30
       $('#head').addClass('bgc-color')
     else  
-      $('#head').removeClass('bgc-color')
+      $('#head').removeClass('bgc-color')###
 
   initPerfectScrollBar:->
     r  = $('._roller')
     $.each r, -> 
       $t = $(@)
-      if Sc.Win.width() < 760
+      if Sc.Win.width() < 767
         $t.stopPropagation()
-      else
-        $t.perfectScrollbar()  
+      else        
+        Scrollbar.initAll({
+          alwaysShowTracks: true
+          continuousScrolling: true
+          damping: 0.03
+          plugins:
+            effect: 'bounce'
+            damping: 0.03
+            maxOverscroll: 30
+            glowColor: '#222a2d'            
+          })
 
   init:()->
     Sc.Win = $(window)
@@ -59,6 +68,8 @@ Sc =
           f.text(t)
         else if f.is('input')
           f.val(t)    
+
+    #Sc.initPerfectScrollBar()
 
     Sc.scroll();
 

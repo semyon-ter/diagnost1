@@ -2,23 +2,31 @@ var Sc;
 
 Sc = {
   resize: function() {},
-  scroll: function() {
-    if (Sc.Win.scrollTop() > 30) {
-      return $('#head').addClass('bgc-color');
-    } else {
-      return $('#head').removeClass('bgc-color');
-    }
-  },
+  scroll: function() {},
+  /*if Sc.Win.scrollTop() > 30
+    $('#head').addClass('bgc-color')
+  else  
+    $('#head').removeClass('bgc-color')*/
   initPerfectScrollBar: function() {
     var r;
     r = $('._roller');
     return $.each(r, function() {
       var $t;
       $t = $(this);
-      if (Sc.Win.width() < 760) {
+      if (Sc.Win.width() < 767) {
         return $t.stopPropagation();
       } else {
-        return $t.perfectScrollbar();
+        return Scrollbar.initAll({
+          alwaysShowTracks: true,
+          continuousScrolling: true,
+          damping: 0.03,
+          plugins: {
+            effect: 'bounce',
+            damping: 0.03,
+            maxOverscroll: 30,
+            glowColor: '#222a2d'
+          }
+        });
       }
     });
   },
@@ -76,6 +84,8 @@ Sc = {
         }
       });
     });
+    
+    //Sc.initPerfectScrollBar()
     Sc.scroll();
     Sc.Win.scroll(function() {
       return Sc.scroll();

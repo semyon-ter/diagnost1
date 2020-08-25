@@ -48,7 +48,9 @@
 	&.t-color1
 		c $color1-1
 	&.t-color2
-		c $color2-1		
+		c $color2-1
+	&.t-color3
+		c $color6-1			
 		
 a
 	c inherit
@@ -63,10 +65,28 @@ a
 			
 h1, h2, h3, h4, h5, h6			
 	&.item-title__fs-t1
-		fsize 115%		
+		fsize 115%
+.title
+	&.title_color-1
+		c $color3-5
 			
 /* text */
 .item-text__border-none
 	p
 		&:before
-			content none			
+			content none
+			
+
+/* list */
+ul, ol
+	&.list
+		&.list_easy
+			list-style none
+			p 0
+			m 0
+			fsize 88%
+			c $color4-4
+			li
+				tPD(.3s)				
+				&:hover
+					c $color7-1	
