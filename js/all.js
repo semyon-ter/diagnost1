@@ -16,10 +16,11 @@ Sc = {
       if (Sc.Win.width() < 767) {
         return $t.stopPropagation();
       } else {
+        Scrollbar.use(OverscrollPlugin);
         return Scrollbar.initAll({
           alwaysShowTracks: true,
           continuousScrolling: true,
-          damping: 0.03,
+          damping: 0.05,
           plugins: {
             effect: 'bounce',
             damping: 0.03,
@@ -32,7 +33,8 @@ Sc = {
   },
   init: function() {
     Sc.Win = $(window);
-    Sc.initPerfectScrollBar();
+    //Sc.initPerfectScrollBar()
+
     //open popoup
     $('._open-popup').click(function() {
       var lp, p, t;
@@ -84,8 +86,7 @@ Sc = {
         }
       });
     });
-    
-    //Sc.initPerfectScrollBar()
+    Sc.initPerfectScrollBar();
     Sc.scroll();
     Sc.Win.scroll(function() {
       return Sc.scroll();

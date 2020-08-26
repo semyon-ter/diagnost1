@@ -20,10 +20,9 @@
 			<circle cx="50" cy="50" r="50"></circle>
 		</svg>
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="decor decor__elem-21">
-			<circle cx="50" cy="50" r="50">             </circle>
+			<circle cx="50" cy="50" r="50"></circle>
 		</svg>
 	</div>
-	<div class="purpose__social social"><a href="./" class="social__facebook"></a><a href="./" class="social__instagram"></a><a href="./" class="social__twitter"></a><a href="./" class="social__youtube"></a></div>
 	<div class="section__content page-container page-container_pad-1">
 		<h1 class="title title_color-1"><span>Индикаторы</span></h1>
 		<div class="border-decor border-decor__color-1">

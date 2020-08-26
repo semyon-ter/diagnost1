@@ -20,7 +20,6 @@
 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="decor decor__elem-6">
 		<circle cx="50" cy="50" r="50"></circle>
 	</svg>
-	<div class="purpose__social social"><a href="./" class="social__facebook"></a><a href="./" class="social__instagram"></a><a href="./" class="social__twitter"></a><a href="./" class="social__youtube"></a></div>
 	<div class="section__content page-container page-container_pad-1">
 		<div class="indent">
 			<h1 class="purpose__title title">О <span>нас</span></h1>

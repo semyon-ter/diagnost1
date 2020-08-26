@@ -1,33 +1,34 @@
-.navi.navi_top.navi_colored
+header.navi.navi_top.navi_colored(data-top_offset='50', data-bg_color='#5922e1')
   .navi__container
-    ul.navi__menu
-      li.navi__menu-item
+    span.navi__menu-toggle
+    ul.navi__menu.menu
+      li.menu-item
         a(href='./') Главная
-      li.navi__menu-item.navi__menu-item_haschild
+      li.menu-item.menu-item-has-children
         a(href='./') Принципы работы
-      li.navi__menu-item.navi__menu-item_haschild
+      li.menu-item.menu-item-has-children
         a(href='./') Чекапы
-        ul.navi__submenu
-          li.navi__submenu-item
+        ul.sub-menu
+          li.menu-item
             a(href='./') Базовый
-          li.navi__submenu-item
+          li.menu-item
             a(href='./') Полный
-          li.navi__submenu-item
+          li.menu-item
             a(href='./') Метабокардио
-          li.navi__submenu-item
+          li.menu-item
             a(href='./') Сон
-          li.navi__submenu-item
+          li.menu-item
             a(href='./') Витамин D
-      li.navi__menu-item
+      li.menu-item
         a(href='./') Приложение
-      li.navi__menu-item
+      li.menu-item
         a(href='./') FAQ
-      li.navi__menu-item
+      li.menu-item
         a(href='./') О нас
-      li.navi__menu-item
+      li.menu-item
         a(href='./') Контакты
     .navi__lang
       a.navi__lang-active(href='./') RU
       a(href='./') EN
     a.navi__login(href='./')
-    a.navi__cart.navi__cart_notempty(href='./')
+    a.navi__cart.navi__cart_notempty(href='./', data-count='99')      

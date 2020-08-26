@@ -21,7 +21,15 @@
 		&.ic-5
 			bgImg url(pics/icons/i-about-5.svg)
 		&.ic-6
-			bgImg url(pics/icons/i-about-6.svg)						
+			bgImg url(pics/icons/i-about-6.svg)
+	&.ic-appstore
+		w 210px
+		h 68px						
+		bgImg url(pics/icons/appstore.svg)
+	&.ic-appstore-o
+		w 210px
+		h 68px						
+		bgImg url(pics/icons/appstore-o.svg)	
 			
 .ava
 	dinblock()
@@ -156,7 +164,51 @@
 		w 70px
 		fill $color7-1
 		bottom 155px
-		r -8px							
+		r -8px
+	&.decor__elem-22
+		w 87px
+		fill $color7-1
+		t 31px
+		l 41px
+	
+	&.decor__img-1
+		t 0
+		r 0
+		w 52vw
+		maxWth 998px
+		zIn 2
+	
+	&.decor__square-1
+		w 563px
+		fill $color6-1
+		t 288px
+		l -420px
+		tf(rotate(20deg))
+	&.decor__square-2
+		w 40px
+		fill $color8-1
+		t 314px
+		l 7.5%
+		tf(rotate(60deg))
+	&.decor__square-3
+		w 185px
+		fill $color4-4
+		bottom 360px
+		r 28.4%
+		tf(rotate(30deg))
+	&.decor__square-4
+		w 300px
+		fill $color4-4
+		bottom 125px
+		r 10px
+		tf(rotate(45deg))
+	&.decor__square-5
+		w 260px
+		fill $color7-1
+		bottom -35px
+		r 24.32%
+		tf(rotate(37deg))	
+												
 		
 /* border decor */
 .border-decor
@@ -171,9 +223,16 @@
 		t 0
 		dblock()
 		bgColor $color1-1
+	&.border-decor__tac
+		&:before
+			l 50%
+			ml -22px	
 	&.border-decor__color-1
 		&:before
-			bgColor $color4-4
+			bgColor(($color4-4)imp())
 	&.border-decor__color-2
 		&:before
-			bgColor $color6-1						
+			bgColor(($color6-1)imp())
+	&.border-decor__color-3
+		&:before
+			bgColor(($color7-1)imp())

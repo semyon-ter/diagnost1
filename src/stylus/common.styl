@@ -77,6 +77,7 @@ button,input,select,textarea
   &.section
     minHt initial
     pt 0 
+    pb 0
 .page-container
   maxWth $WIDTH
   w 100%
@@ -88,8 +89,22 @@ button,input,select,textarea
   &.section__content
     maxWth $WIDTH
     zIn 2
+  p
+    tali justify
+    //fsize 77%  
 
  
+.section__article
+  &.section__article_width-1
+    maxWth 685px
+    mb 0
+    
+.section__content_wide
+  &.v2 
+    p
+      &:before
+        dblock()
+
 .tac
   tcenter()
 .tar
@@ -167,40 +182,51 @@ padd(0,300)
     lh 1.18
     ttUp() 
     c $color1-1
-
-.roller 
-  posrel()
-  &.roller__height-1
-    h 47.7vh
-    maxHt 516px
   
 .fake-head
-  h 115px
+  h 165px
   
 .navi_colored
   bgColor $color6-1
   
 .footer_fix-bottom
-  possti()
+  possti() 
   t 100%      
     
-.ps-container.roller
-  &.ps-in-scrolling, &.ps-x, &.ps-y, &.ps-active-x, &.ps-active-y 
-    & > .ps-scrollbar-x-rail
-      h 10px
-      bgColor transparent      
-    & > .ps-scrollbar-y-rail
-      w 10px
-      bgColor transparent
-    &:hover, &:active 
-      & > .ps-scrollbar-x-rail, & > .ps-scrollbar-y-rail
-        &:hover, &:active
-          bgColor transparent
-      & > .ps-scrollbar-x-rail
-        &:hover, &:active
-          & > .ps-scrollbar-x
-            h 6px
-      & > .ps-scrollbar-y-rail
-        &:hover, &:active
-          & > .ps-scrollbar-y
-            w 6px  
+
+.roller 
+  posrel()
+  ov auto
+  &.roller__height-1
+    h 53.75vh
+    maxHt 516px
+    //h 450px  
+  .scrollbar-track-y
+    w 17px
+    &:before
+      w 1px
+      h 100%
+      l 50%
+      t 0
+  .scrollbar-track-x
+    h 17px
+    &:before
+      h 1px
+      w 100%
+      l 0
+      t 50%    
+  .scrollbar-track
+    bgColor transparent
+    &:before
+      content ''
+      posabs()
+      zIn 1
+      bgColor $color3-5
+  .scrollbar-thumb
+    w 17px
+    h 17px
+    bRad 8px
+    bgColor $color6-1
+    posrel()
+    zIn 2
+    cPoint()

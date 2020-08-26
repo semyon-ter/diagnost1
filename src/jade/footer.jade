@@ -1,17 +1,14 @@
 footer.section.section_footer.footer.footer_fix-bottom
   .section__content.section__content_footer.footer__content
     .footer__subscribe
-      h2.title
-        | Подпишитесь на нашу 
+      h2.title Подпишитесь на нашу 
         span рассылку
-      p
-        | Актуальные новости по теме здорового образа жизни и эксклюзивные предложения от нашей компании.
+      p Актуальные новости по теме здорового образа жизни и эксклюзивные предложения от нашей компании.
       form.footer__subscribe-form.form.form_subscribe(action='./')
         input.form__input.form__input_email(type='email', placeholder='Email')
         input.form__submit.button(type='submit', value='Ok')
     .footer__social
-      h2.title
-        | Мы в социальных 
+      h2.title Мы в социальных 
         span сетях
       p Следите за развитием нашей платформы в удобном для вас формате
       .footer__social-items.social.social_footer
@@ -19,39 +16,38 @@ footer.section.section_footer.footer.footer_fix-bottom
         a.social__instagram(href='./')
         a.social__twitter(href='./')
         a.social__youtube(href='./')
-  .section__navi.navi.navi_footer
+  .navi.navi_footer
     .navi__container
-      ul.navi__menu
-        li.navi__menu-item
+      ul.navi__menu.menu
+        li.menu-item
           a(href='./') Главная
-        li.navi__menu-item.navi__menu-item_haschild
-          a(href='./') Принцип работы
-        li.navi__menu-item.navi__menu-item_haschild
+        li.menu-item.menu-item-has-children
+          a(href='./') Принципы работы
+        li.menu-item.menu-item-has-children
           a(href='./') Чекапы
-          ul.navi__submenu
-            li.navi__submenu-item
+          ul.sub-menu
+            li.menu-item
               a(href='./') Базовый
-            li.navi__submenu-item
+            li.menu-item
               a(href='./') Полный
-            li.navi__submenu-item
+            li.menu-item
               a(href='./') Метабокардио
-            li.navi__submenu-item
+            li.menu-item
               a(href='./') Сон
-            li.navi__submenu-item
+            li.menu-item
               a(href='./') Витамин D
-        li.navi__menu-item
+        li.menu-item
           a(href='./') Приложение
-        li.navi__menu-item
+        li.menu-item
           a(href='./') FAQ
-        li.navi__menu-item
+        li.menu-item
           a(href='./') О нас
-        li.navi__menu-item
+        li.menu-item
           a(href='./') Контакты
       .navi__lang
         a.navi__lang-active(href='./') RU
         a(href='./') EN
   .section__content.section__content_footer.footer__bottom
     .footer__bottom-copy © 2020 Health Monitor Consulting Ltd
-    .footer__bottom-developed
-      | Developed by 
+    .footer__bottom-developed Developed by 
       a(href='./')

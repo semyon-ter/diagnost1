@@ -13,11 +13,12 @@ Sc =
       $t = $(@)
       if Sc.Win.width() < 767
         $t.stopPropagation()
-      else        
+      else
+        Scrollbar.use OverscrollPlugin        
         Scrollbar.initAll({
           alwaysShowTracks: true
           continuousScrolling: true
-          damping: 0.03
+          damping: 0.05
           plugins:
             effect: 'bounce'
             damping: 0.03
@@ -27,7 +28,7 @@ Sc =
 
   init:()->
     Sc.Win = $(window)
-    Sc.initPerfectScrollBar()
+    #Sc.initPerfectScrollBar()
 
     #open popoup
     $('._open-popup').click ->
@@ -69,7 +70,7 @@ Sc =
         else if f.is('input')
           f.val(t)    
 
-    #Sc.initPerfectScrollBar()
+    Sc.initPerfectScrollBar()
 
     Sc.scroll();
 

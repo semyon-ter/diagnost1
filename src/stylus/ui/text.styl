@@ -50,7 +50,9 @@
 	&.t-color2
 		c $color2-1
 	&.t-color3
-		c $color6-1			
+		c $color6-1
+	&.t-color4
+		c $color3-5				
 		
 a
 	c inherit
@@ -84,9 +86,26 @@ ul, ol
 			list-style none
 			p 0
 			m 0
-			fsize 88%
+			//fsize 88%
 			c $color4-4
 			li
 				tPD(.3s)				
 				&:hover
-					c $color7-1	
+					c $color7-1
+		&.list_type-1
+			list-style none
+			p 0
+			m(0 0 35px)
+			//fsize 77%
+			li
+				pl 15px
+				posrel()
+				&:before
+					content ''
+					posabs()
+					l 0
+					t 12px
+					w 6px
+					h 6px
+					bRad 50%
+					bgColor $color1-1			

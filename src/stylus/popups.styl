@@ -37,11 +37,12 @@
 		p(80px 35px 90px 100px)
 		bbox()
 		dnone()
+		ov hidden
 		&.popup-item__width-1
 			w 90%
 			maxWth 1454px
 		&.show 
-			dblock()
+			dblock()	
 		.popup-close
 			posabs()
 			t 57px
@@ -56,9 +57,14 @@
 				lht 100%
 		p
 			mb 20px
-			fsize 22px
+			fsize 17px
 			ffam(GL,sans-serif)
-			lht 1.4		
+			lht 1.4
+			tali justify
+		.scrollbar-track-y.show
+			display block !important
+			.scrollbar-thumb-y
+				h 53px			
 	.popup-close
 		w 35px
 		h 35px
@@ -70,3 +76,6 @@
 		bgColor $color7-1
 		cursor pointer
 		bgImg url(pics/icons/close2.svg)
+	.popup-content
+		posrel()
+		zIn 5	
