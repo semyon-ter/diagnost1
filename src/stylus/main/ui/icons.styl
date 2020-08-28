@@ -9,19 +9,7 @@
 		dblock()
 	&.ic-about
 		w 164px
-		h 123px
-		&.ic-1
-			bgImg url(pics/icons/i-about-1.svg)
-		&.ic-2
-			bgImg url(pics/icons/i-about-2.svg)
-		&.ic-3
-			bgImg url(pics/icons/i-about-3.svg)
-		&.ic-4
-			bgImg url(pics/icons/i-about-4.svg)
-		&.ic-5
-			bgImg url(pics/icons/i-about-5.svg)
-		&.ic-6
-			bgImg url(pics/icons/i-about-6.svg)
+		vAl top		
 	&.ic-appstore
 		w 210px
 		h 68px						
@@ -148,12 +136,12 @@
 		w 90px
 		fill $color4-4
 		t 58px
-		r 157px
+		r 8.26%
 	&.decor__elem-19
 		w 40px
 		fill $color8-1
 		t 63px
-		r 138px
+		r 7.26%
 		zIn 2
 	&.decor__elem-20
 		w 60px
@@ -211,28 +199,87 @@
 												
 		
 /* border decor */
-.border-decor
-	posrel()
-	pt 19px
-	&:before
-		content ''
-		posabs()
-		w 44px
-		h 4px
-		l 0
-		t 0
-		dblock()
-		bgColor $color1-1
+.border-decor	
+	&.border-decor__child
+		p
+			posrel()
+			pt 19px
+			&:before
+				content ''
+				posabs()
+				w 44px
+				h 4px
+				l 0
+				t 0
+				dblock()
+				bgColor $color1-1
+	&.border-decor__parent
+		posrel()
+		pt 19px
+		&:before
+			content ''
+			posabs()
+			w 44px
+			h 4px
+			l 0
+			t 0
+			dblock()
+			bgColor $color1-1
+	&.border-decor__even
+		&.border-decor__child
+			p
+				&:nth-child(odd)
+					pt 0
+					&:before					
+						content none
+		&.border-decor__parent			
+			&:nth-child(odd)
+				pt 0
+				&:before					
+					content none
+	&.border-decor__odd
+		&.border-decor__child
+			p
+				&:nth-child(even)
+					pt 0
+					&:before					
+						content none
+		&.border-decor__parent
+			&:nth-child(even)
+				pt 0
+				&:before					
+					content none										
 	&.border-decor__tac
-		&:before
-			l 50%
-			ml -22px	
+		&.border-decor__child
+			p
+				&:before
+					l 50%
+					ml -22px
+		&.border-decor__parent
+			&:before
+				l 50%
+				ml -22px				
 	&.border-decor__color-1
-		&:before
-			bgColor(($color4-4)imp())
+		&.border-decor__child
+			p
+				&:before
+					bgColor(($color4-4)imp())
+		&.border-decor__parent
+			&:before
+				bgColor(($color4-4)imp())
 	&.border-decor__color-2
-		&:before
-			bgColor(($color6-1)imp())
+		&.border-decor__child
+			p
+				&:before
+					bgColor(($color6-1)imp())
+		&.border-decor__parent
+			&:before
+				bgColor(($color6-1)imp())
 	&.border-decor__color-3
-		&:before
-			bgColor(($color7-1)imp())
+		&.border-decor__child
+			p
+				&:before
+					bgColor(($color7-1)imp())
+		&.border-decor__parent
+			&:before
+				bgColor(($color7-1)imp())

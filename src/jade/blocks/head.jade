@@ -1,11 +1,21 @@
-header.navi.navi_top.navi_colored(data-top_offset='50', data-bg_color='#5922e1')
+header.navi.navi_top(data-top_offset='50', data-bg_color='#5922e1')
   .navi__container
-    span.navi__menu-toggle
+    span.menu-open
     ul.navi__menu.menu
+      span.menu-close
       li.menu-item
         a(href='./') Главная
       li.menu-item.menu-item-has-children
         a(href='./') Принципы работы
+        ul.sub-menu
+          li.menu-item
+            a(href='./') Consectetur
+          li.menu-item
+            a(href='./') Adipisicing
+          li.menu-item
+            a(href='./') Reprehenderit
+          li.menu-item
+            a(href='./') Ipsum dolor
       li.menu-item.menu-item-has-children
         a(href='./') Чекапы
         ul.sub-menu
@@ -31,4 +41,4 @@ header.navi.navi_top.navi_colored(data-top_offset='50', data-bg_color='#5922e1')
       a.navi__lang-active(href='./') RU
       a(href='./') EN
     a.navi__login(href='./')
-    a.navi__cart.navi__cart_notempty(href='./', data-count='99')      
+    a.navi__cart.navi__cart_notempty(href='./', data-count='99')

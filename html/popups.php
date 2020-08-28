@@ -7,7 +7,7 @@
 		</svg>
 		<div class="popup-close _popup-cls"></div>
 		<div class="popup-content">
-			<h2 class="title title_color-1 border-decor border-decor__color-2"><span>Креатинин</span></h2>
+			<h2 class="title title_color-1 border-decor border-decor__parent border-decor__color-2"><span>Креатинин</span></h2>
 			<div data-scrollbar="true" class="roller roller__height-1 _roller">
 				<div class="indent_pr-t1">
 					<p><span class="t t-color3">Что это такое?</span><br> Креатинин является продуктом распада креатина в мышечной ткани и обеспечивает энергию для сокращения мышц. Почти весь креатин вырабатывается в почках, поэтому его концентрация в крови является надежным показателем их функции. Количество вырабатываемого креатина зависит от массы тела человека (в частности, мышечной массы). Мужчины, как правило, имеют более высокий уровень креатинина, чем женщины.</p>

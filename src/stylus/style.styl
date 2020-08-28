@@ -1,23 +1,67 @@
 @import "././src-main/style.css"
 
 @import "C:\lib_semen\mixins.styl" 
-@import "globals";
+@import "main/globals";
 
 //@import "ui/fonts";
 
-@import "common"; 
-@import "popups";
+@import "main/common"; 
+@import "main/popups";
 
-@import "ui/text";
-@import "ui/icons";
-@import "ui/display";
-@import "ui/nav"; 
-@import "ui/input";
-@import "ui/indent";
+@import "main/ui/text";
+@import "main/ui/icons";
+@import "main/ui/display";
+@import "main/ui/nav"; 
+@import "main/ui/input";
+@import "main/ui/indent";
 
-@import "blocks/about";
-@import "blocks/partner";
-@import "blocks/indicator";
-@import "blocks/app";
-@import "blocks/app-mini";
-@import "blocks/plus";
+@import "main/blocks/about";
+@import "main/blocks/partner";
+@import "main/blocks/indicator";
+@import "main/blocks/app";
+@import "main/blocks/app-mini";
+@import "main/blocks/plus";
+
+@media all and (max-width: $device_size_lap)
+	@import "lap/common"
+	@import "lap/popups"
+	@import "lap/blocks/about"
+	@import "lap/blocks/partner"
+	@import "lap/blocks/indicator"
+	@import "lap/blocks/app"
+	@import "lap/blocks/app-mini"
+	@import "lap/ui/icons"
+	@import "lap/ui/text"
+	@import "lap/ui/indent"
+	
+@media all and (max-width $device_size_desk)
+	@import "desk/common"	
+	@import "desk/popups"	
+	@import "desk/blocks/about"	
+	@import "desk/blocks/partner"	
+	@import "desk/blocks/indicator"	
+	@import "desk/blocks/app"	
+	@import "desk/blocks/app-mini"	
+	@import "desk/ui/icons"	
+	@import "desk/ui/text"	
+	@import "desk/ui/indent"
+	
+@media all and (max-width $device_size_pad)
+	@import "pad/common"
+	@import "pad/popups"
+	@import "pad/blocks/about"	
+	@import "pad/blocks/partner"	
+	@import "pad/blocks/indicator"	
+	@import "pad/blocks/app"	
+	@import "pad/blocks/app-mini"		
+	@import "pad/blocks/plus"		
+	@import "pad/ui/text"		
+	@import "pad/ui/icon"		
+	@import "pad/ui/indent"		
+	
+@media all and (max-width $device_size_mob)
+	@import "mob/common"	
+	@import "mob/popups"	
+	@import "mob/ui/icons"	
+	@import "mob/ui/indent"	
+	@import "mob/ui/display"	

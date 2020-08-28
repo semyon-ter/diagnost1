@@ -27,7 +27,7 @@
 		<h1 class="title title_color-1"><span>Индикаторы</span></h1>
 		<div class="border-decor border-decor__color-1">
 			<div class="row">
-				<div class="col col-50">
+				<div class="col col-50 col-mob-100">
 					<ul class="list list_easy">
 						<li><span data-link-to-popup="i1" class="pointer _open-popup">Креатинин </span></li>
 						<li><span data-link-to-popup="i1" class="pointer _open-popup">Эстрогенные гормоны: эстрон (E1)</span></li>
@@ -53,7 +53,8 @@
 						<li><span data-link-to-popup="i1" class="pointer _open-popup">Метаболиты минералокортикоидов: аллотетрагидрокортикостерон (5α-THB), тетрагидрокортикостерон (THB), 11-дегидротетрагидрокортикостерон (THA)</span></li>
 					</ul>
 				</div>
-				<div class="col col-50">
+				<div class="col col-50 col-mob-100">
+					<div class="dev-dn-main dev-db-mob pt-4"></div>
 					<ul class="list list_easy">
 						<li><span data-link-to-popup="i1" class="pointer _open-popup">Мелатонин: 6-сульфатоксимелатонин (MT6s)</span></li>
 						<li><span data-link-to-popup="i1" class="pointer _open-popup">Гормоны щитовидной железы: свободный T3</span></li>
