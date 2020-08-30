@@ -25,6 +25,6 @@
 			<li class="menu-item"><a href="./">О нас</a></li>
 			<li class="menu-item"><a href="./">Контакты</a></li>
 		</ul>
-		<div class="navi__lang"><a href="./" class="navi__lang-active">RU</a><a href="./">EN</a></div><a href="./" class="navi__login"></a><a href="./" data-count="99" class="navi__cart navi__cart_notempty"></a>
+		<div class="navi__lang"><a href="./" class="navi__lang-active">RU</a><a href="./">EN</a></div><a href="./" class="navi__login"></a><a href="./" class="navi__cart"><span class="navi__cart-counter navi__cart-counter_noempty">99</span></a>
 	</div>
 </header>

@@ -24,7 +24,7 @@
 		</svg>
 	</div>
 	<div class="section__content page-container page-container_pad-1">
-		<h1 class="title title_color-1"><span>Индикаторы</span></h1>
+		<h1 class="section__title title title_color-1"><span>Индикаторы</span></h1>
 		<div class="border-decor border-decor__color-1">
 			<div class="row">
 				<div class="col col-50 col-mob-100">

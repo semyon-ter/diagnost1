@@ -6,10 +6,10 @@
 		<meta name="keywords" content="">
 		<meta name="description" content="">
 		<title>Новый сайт        </title>
+		<link href="src-main/style.css" rel="stylesheet" type="text/css">
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link rel="icon" href="favicon.png" type="image/x-icon">
 		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-		<link rel="stylesheet" href="lib/perfect-scrollbar/css/perfect-scrollbar.css">
 	</head>
 	<body> 
 		<?php foreach($SECTIONS as $k=>$v) {; ?>

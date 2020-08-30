@@ -22,7 +22,7 @@
 	</svg>
 	<div class="section__content page-container page-container_pad-1">
 		<div class="indent">
-			<h1 class="purpose__title title">О <span>нас</span></h1>
+			<h1 class="section__title title">О <span>нас</span></h1>
 			<p>ДИАГНОСТ как проект был запущен в 2018 году в основном как онлайн приложение превентивной медицины и медицины против старения (антиэйджинг). Позже мы расширили наш сервис и запустили единую платформу на веб-сайте «ДИАГНОСТ» с целью распространения наших услуг в области персонализированной медицины. ДИАГНОСТ - это мощный и современный инструмент для мониторинга вашего здоровья и улучшения качества вашей жизни.</p>
 		</div>
 		<div class="indent flex f-alItem-start"><img src="pics/icons/i-about-1.svg" class="icon ic-about f-shrink-0"/>

@@ -42,7 +42,9 @@
 			<a href="./">EN</a>
 		</div>
 		<a href="./" class="navi__login"></a>
-		<a href="./" class="navi__cart navi__cart_notempty" data-count="99"></a>
+		<a href="./" class="navi__cart">
+			<span class="navi__cart-counter navi__cart-counter_noempty">99</span>
+		</a>
 	</div>
 </div> 
 
@@ -104,7 +106,7 @@
 	</div>
 	<div class="section__content">
 		<div class="section__article">
-			<h1 class="purpose__title title">Для кого предназначен <span>diagnost?</span></h1>
+			<h1 class="section__title title">Для кого предназначен <span>diagnost?</span></h1>
 			<div class="purpose__text">
 				<p>Это инновационная и современная платформа для людей любой демографической группы и любого возраста, которые хотели бы лучше понять свое здоровье. Наше здоровье влияет на качество нашей жизни, долголетие и наше поведение, однако все мы знаем что все это  носит взаимный характер и наш образ жизни и привычки оказывают сильное действие на наше самочувствие.</p>		
 				<p>Только знакомясь с нашим состоянием здоровья и благотворно влияя на него, мы можем улучшить и смягчить любые негативные воздействия на него, отсрочить или предотвратить многие болезни.</p>		
@@ -113,7 +115,7 @@
 	</div>
 </section>
 <section class="section section_offers offers">
-	<h1 class="section__title title">Что предлагает<span>diagnost?</span></h1>
+	<h1 class="section__title section__title_wide title">Что предлагает<span>diagnost?</span></h1>
 	<div class="offer__slider slider slider_offer">
 		<div class="slider__items owl-carousel">
 			<div class="slider__item">
@@ -157,7 +159,7 @@
 	</div>
 	<div class="section__content">
 		<div class="section__article">
-			<h1 class="testing__title title">Что тестирует <span>diagnost?</span></h1>
+			<h1 class="section__title title">Что тестирует <span>diagnost?</span></h1>
 			<div class="testing__text">
 				<p>В наших тестах используются различные биологические материалы, такие как слюна, сухая моча или сухая капля крови в зависимости от типа теста и анализируемых параметров. Например, чтобы проверить, сбалансирован ли ваш уровень гормонов, ДИАГНОСТ использует сухую мочу, для того чтобы проверить значения метаболитов ваших гормонов. На основании этого мы можем сделать выводы относительно вашего гормонального баланса.</p>
 			</div>
@@ -175,7 +177,7 @@
 	</div>
 	<div class="section__content">
 		<div class="section__article">
-			<h1 class="knows__title title">Что вы узнаете, получив отчет <span>diagnost?</span></h1>
+			<h1 class="section__title title">Что вы узнаете, получив отчет <span>diagnost?</span></h1>
 			<div class="knows__text">
 				<p>Как только мы получим ваши результаты, команда врачей и специалистов интерпретирует их для вас в соответствии с вашими симптомами и приоритетами, ранее определенными в заполненной вами анкете. Мы определим, что и как в вашем индивидуальном случае нужно исправить, чтобы быть в балансе, а именно:</p>
 				<p>какие клинические и биохимические параметры соответствуют вашим симптомам и что происходит внутри вашего организма;</p>
@@ -186,57 +188,71 @@
 	</div>		
 </section>
 <section class="section section_checkup checkup">
-	<h1 class="section__title title">Чекапы <span>diagnost</span></h1>
+	<h1 class="section__title section__title_wide title">Чекапы <span>diagnost</span></h1>
 	<div class="section__content section__content_wide checkup__content">
 		<div class="checkup__box">
 			<img src="./images/box.png" alt="">
 		</div>
 		<div class="checkup__tab tab">
-			<h2 class="tab__title tab__title_base tab__title_active" data-link="./">
-				<span>Базовый</span>
-				<img src="./images/icon-base.svg" alt="">
-			</h2>
-			<div class="tab__text">
-				<p>Наш наиболее полный и известный профиль проверки вашего здоровья, который обеспечивает очень полную оценку ваших метаболитов гормонов мочи. Гормоны помогают нам найти баланс, поскольку они активны в каждой клетке нашего тела, регулируя либо ключевые факторы, либо множество биохимических путей. Эти пути участвуют в управлении нашим здоровьем на ежедневной основе, как наше настроение, чувство энергии, память, сон и либидо. С другой стороны, общее самочувствие и уровень гормонов зависит от нашей окружающей среды, уровня стресса, токсинов, типа диеты и т. д. Таким образом, этот тест позволит вам оценить гормональный и метаболический баланс, пути детоксикации и риск многих заболеваний, включая рак.</p>
-				<a href="" class="tab__btn button">Купить</a>
+			<div class="tab__titles">
+				<h2 class="tab__title tab__title_base tab__title_active">
+					<span>Базовый</span>
+					<span class="tab__title-icon">
+						<img src="./images/icon-base.svg" alt="">
+					</span>
+				</h2>
+				<h2 class="tab__title tab__title_full">
+					<span>Полный</span>
+					<span class="tab__title-icon">
+						<img src="./images/icon-full.svg" alt="">
+					</span>
+				</h2>
+				<h2 class="tab__title tab__title_metabo">
+					<span>Метабокардио</span>
+					<span class="tab__title-icon">
+						<img src="./images/icon-metabo.svg" alt="">
+					</span>
+				</h2>
+				<h2 class="tab__title tab__title_sleep">
+					<span>Сон</span>
+					<span class="tab__title-icon">
+						<img src="./images/icon-sleep.svg" alt="">
+					</span>
+				</h2>
+				<h2 class="tab__title tab__title_vitamin">
+					<span>Витамин D</span>
+					<span class="tab__title-icon">
+						<img src="./images/icon-vitamin.svg" alt="">
+					</span>
+				</h2>
 			</div>
-			<h2 class="tab__title tab__title_full" data-link="./привет-привет.html">
-				<span>Полный</span>
-				<img src="./images/icon-full.svg" alt="">
-			</h2>
-			<div class="tab__text">
-				<p>reprehenderit irure mollit ad sint occaecat officia do irure excepteur tempor ut aliqua laborum aute deserunt anim laborum sint mollit ea ullamco irure duis dolor anim veniam dolor culpa commodo esse sint sint est ipsum excepteur ex irure enim amet deserunt amet eu est in eu anim occaecat occaecat occaecat occaecat ea mollit cillum qui ea ut dolore ullamco non est do ex exercitation elit ex laborum do incididunt dolore eu deserunt laborum eu anim excepteur qui qui ut minim ullamco reprehenderit excepteur excepteur aute excepteur id anim deserunt esse esse laborum duis est minim officia fugiat incididunt deserunt anim</p>
-				<a href="" class="tab__btn button">Купить</a>
-			</div>
-			<h2 class="tab__title tab__title_metabo" data-link="./">
-				<span>Метабокардио</span>
-				<img src="./images/icon-metabo.svg" alt="">
-			</h2>
-			<div class="tab__text">
-				<p>magna consequat magna ad cillum labore irure amet ea labore amet excepteur voluptate enim est elit pariatur aute consequat officia incididunt occaecat sunt duis sunt in minim sit nulla deserunt magna est esse quis laboris quis qui sunt commodo excepteur voluptate minim ut mollit ad officia laboris non velit non aliquip cillum proident adipisicing sunt tempor ea sint deserunt velit deserunt culpa est proident exercitation dolor laborum officia nisi ut eiusmod magna eiusmod non veniam non adipisicing eiusmod incididunt et veniam culpa adipisicing pariatur est fugiat qui voluptate deserunt adipisicing nisi commodo laborum aute dolor sit sit quis cupidatat aliquip</p>
-				<a href="" class="tab__btn button">Купить</a>
-			</div>
-			<h2 class="tab__title tab__title_sleep" data-link="./">
-				<span>Сон</span>
-				<img src="./images/icon-sleep.svg" alt="">
-			</h2>
-			<div class="tab__text">
-				<p>pariatur incididunt aliqua enim tempor elit Lorem excepteur Lorem adipisicing anim ex adipisicing enim ad culpa sit ad incididunt amet non in nisi sit do sunt magna non excepteur laboris consectetur aute ea consectetur do veniam amet sit eiusmod laboris in sint cillum mollit sint in excepteur ex laboris ullamco sint ex magna qui eiusmod est pariatur velit tempor officia incididunt commodo aliquip occaecat Lorem laboris cillum nulla labore ut esse consequat tempor id aliqua commodo tempor duis est proident commodo ad excepteur officia labore laboris nostrud ullamco magna consequat et aliqua consectetur sunt labore ex ullamco est commodo proident</p>
-				<a href="" class="tab__btn button">Купить</a>
-			</div>
-			<h2 class="tab__title tab__title_vitamin" data-link="./">
-				<span>Витамин D</span>
-				<img src="./images/icon-vitamin.svg" alt="">
-			</h2>
-			<div class="tab__text">
-				<p>ad occaecat adipisicing non deserunt Lorem consectetur id irure dolor ullamco sint eiusmod nisi labore excepteur qui excepteur proident velit dolore non tempor velit laboris duis qui magna in reprehenderit nulla in tempor laboris pariatur sit cillum ea elit eu excepteur eiusmod duis laborum id dolore quis duis culpa ullamco exercitation aute exercitation ipsum exercitation in pariatur cillum consectetur ullamco excepteur eu ex cillum veniam id ea do enim et veniam amet magna sunt Lorem deserunt esse occaecat esse ipsum incididunt laborum quis duis nostrud occaecat incididunt do reprehenderit enim aliqua et eu mollit non fugiat minim laboris proident aliquip</p>
-				<a href="" class="tab__btn button">Купить</a>
+			<div class="tab__outputs">
+				<div class="tab__text tab__text_active">
+					<p>Наш наиболее полный и известный профиль проверки вашего здоровья, который обеспечивает очень полную оценку ваших метаболитов гормонов мочи. Гормоны помогают нам найти баланс, поскольку они активны в каждой клетке нашего тела, регулируя либо ключевые факторы, либо множество биохимических путей. Эти пути участвуют в управлении нашим здоровьем на ежедневной основе, как наше настроение, чувство энергии, память, сон и либидо. С другой стороны, общее самочувствие и уровень гормонов зависит от нашей окружающей среды, уровня стресса, токсинов, типа диеты и т. д. Таким образом, этот тест позволит вам оценить гормональный и метаболический баланс, пути детоксикации и риск многих заболеваний, включая рак.</p>	
+					<a href="./" class="tab__btn button">Купить</a>
+				</div>
+				<div class="tab__text">
+					<p>est tempor id cupidatat occaecat do nulla laborum labore enim nostrud laboris nostrud occaecat nisi aute do velit veniam amet quis amet ea non sint labore sint sit nisi magna dolore cupidatat sint irure proident veniam sit incididunt elit est occaecat commodo officia sunt sunt consequat proident quis incididunt non duis duis dolore excepteur commodo non tempor esse aute ex proident dolor sint dolore est non deserunt pariatur quis Lorem tempor commodo tempor non ad sint esse non minim laboris pariatur sint aliqua aute officia do tempor veniam magna do est laborum ad deserunt culpa enim voluptate esse in eiusmod</p>
+					<a href="./" class="tab__btn button">Купить</a>
+				</div>
+				<div class="tab__text">
+					<p>consequat esse id Lorem esse consequat mollit ut laborum sunt commodo aute anim quis commodo minim et aute minim elit culpa sint consectetur quis exercitation enim proident in consectetur ex dolore adipisicing consequat nostrud est proident id occaecat adipisicing ea excepteur aliqua et deserunt adipisicing ut magna sunt minim tempor laboris ipsum cupidatat Lorem magna occaecat ullamco velit exercitation voluptate dolor ea anim cillum voluptate culpa non in exercitation nulla est fugiat ad nulla Lorem velit id eiusmod dolore laborum anim reprehenderit consequat do laborum reprehenderit irure duis nulla dolore deserunt aute qui nulla laborum deserunt do laboris culpa non</p>
+					<a href="./" class="tab__btn button">Купить</a>
+				</div>
+				<div class="tab__text">
+					<p>exercitation sit quis sit officia Lorem incididunt ipsum est anim cillum occaecat duis laborum veniam sit exercitation eu sunt cupidatat labore pariatur amet velit tempor non occaecat amet dolore qui qui mollit aute ut consequat elit nostrud voluptate magna reprehenderit elit deserunt officia ullamco in dolor ea nisi mollit excepteur amet aute dolore sint aute eu esse deserunt veniam non duis sunt pariatur sint ullamco veniam dolor magna adipisicing commodo dolore non proident ad nisi quis cupidatat sunt commodo ea reprehenderit Lorem dolore tempor sint irure eu consequat duis est veniam tempor labore aute ad deserunt ad labore ut fugiat</p>
+					<a href="./" class="tab__btn button">Купить</a>
+				</div>
+				<div class="tab__text">
+					<p>ex qui cillum consequat sit ad excepteur laborum ullamco dolore amet aute velit labore sit aute Lorem tempor labore non laboris aliquip laboris enim amet voluptate non eu quis magna dolore ut eiusmod magna deserunt sit irure anim culpa dolor nisi ea quis sit est id do ut ad incididunt in nisi consectetur minim id dolor consectetur in proident non pariatur deserunt pariatur elit et est reprehenderit magna officia aute elit incididunt anim sunt nulla exercitation reprehenderit veniam Lorem exercitation elit exercitation dolor qui cillum id tempor dolor id culpa ea deserunt laborum pariatur adipisicing reprehenderit occaecat nulla amet dolore</p>
+					<a href="./" class="tab__btn button">Купить</a>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 <section class="section section_how how">
-	<h1 class="section__title title">Как работают диагностические тесты <span>diagnost?</span></h1>
+	<h1 class="section__title section__title_wide title">Как работают диагности&shy;ческие тесты <span>diagnost?</span></h1>
 	<div class="section__content section__content_wide how__items">
 		<div class="how__item">
 			<div class="how__item-number">1</div>
@@ -277,7 +293,7 @@
 	</div>
 	<div class="section__content">
 		<div class="section__article">
-			<h1 class="where__title title">Где анализируются образцы <span>diagnost?</span></h1>
+			<h1 class="section__title title">Где анализируются образцы <span>diagnost?</span></h1>
 			<div class="where__text">
 				<p>Мы используем ведущие инновационные лаборатории в Соединенных Штатах Америки и Европе, с широким спектром передовых и новаторских технологий, чтобы получить самые передовые представления о вашем здоровье. Качество и точность являются одними из наших основных ценностей, поэтому все наши партнерские лаборатории сертифицированы и соответствуют надлежащей лабораторной практике (стандарт GLP).</p>
 			</div>
@@ -294,7 +310,7 @@
 	</div>
 	<div class="section__content">
 		<div class="section__article">
-			<h1 class="application__title title">Приложение <span>diagnost</span></h1>
+			<h1 class="section__title title">Приложение <span>diagnost</span></h1>
 			<div class="application__text">
 				<p>Для того, чтобы вы могли отслеживать показатели своего здоровья в любое время и в любом месте, вы можете это сделать с нашим приложением ДИАГНОСТ iOS, которое мы создали специально для вас.</p>
 			</div>
@@ -305,10 +321,13 @@
 		</div>
 	</div>
 </section>
-<footer class="section section_footer footer"> 
-	<div class="section__content section__content_footer footer__content">
+<footer class="section footer">
+	<div class="footer__content">
 		<div class="footer__subscribe">
-			<h2 class="title">Подпишитесь на нашу <span>рассылку</span></h2>
+			<h2 class="footer__title title">
+				Подпишитесь на нашу 
+				<span>рассылку</span>
+			</h2>
 			<p>Актуальные новости по теме здорового образа жизни и эксклюзивные предложения от нашей компании.</p>
 			<form action="./" class="footer__subscribe-form form form_subscribe">
 				<input class="form__input form__input_email" type="email" placeholder="Email">
@@ -316,7 +335,10 @@
 			</form>
 		</div>
 		<div class="footer__social">
-			<h2 class="title">Мы в социальных <span>сетях</span></h2>
+			<h2 class="footer__title title">
+				Мы в социальных 
+				<span>сетях</span>
+			</h2>
 			<p>Следите за развитием нашей платформы в удобном для вас формате</p>
 			<div class="footer__social-items social social_footer">
 				<a href="./" class="social__facebook"></a>
@@ -330,7 +352,14 @@
 		<div class="navi__container">
 			<ul class="navi__menu menu">
 				<li class="menu-item"><a href="./">Главная</a></li>
-				<li class="menu-item menu-item-has-children"><a href="./">Принципы работы</a></li>
+				<li class="menu-item menu-item-has-children"><a href="./">Принципы работы</a>
+					<ul class="sub-menu">
+						<li class="menu-item"><a href="./">Consectetur</a></li>
+						<li class="menu-item"><a href="./">Adipisicing</a></li>
+						<li class="menu-item"><a href="./">Reprehenderit</a></li>
+						<li class="menu-item"><a href="./">Ipsum dolor</a></li>
+					</ul>
+				</li>
 				<li class="menu-item menu-item-has-children"><a href="./">Чекапы</a>
 					<ul class="sub-menu">
 						<li class="menu-item"><a href="./">Базовый</a></li>
@@ -369,4 +398,3 @@
 </body> 
 </html> 
 
-<!-- <p>culpa amet eiusmod duis cupidatat sint amet deserunt magna nostrud id sint reprehenderit officia ut laborum cillum aute occaecat nulla ea amet adipisicing nulla adipisicing sint in officia anim proident minim minim dolore esse sit eiusmod culpa ipsum est qui officia velit esse consequat sint est qui adipisicing irure nisi et aliqua excepteur culpa est quis culpa labore sint aliquip irure officia est excepteur cupidatat esse do quis in adipisicing sunt pariatur voluptate dolore aliqua laborum ex non ipsum officia nostrud ad fugiat dolor consectetur occaecat aliqua adipisicing proident non deserunt voluptate esse adipisicing cupidatat Lorem fugiat irure aliqua aliqua</p> -->

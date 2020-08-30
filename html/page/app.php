@@ -20,7 +20,7 @@
 	<div class="section__content page-container page-container_pad-1">
 		<div class="section__article section__article_width-1">
 			<div class="flex f-between f-middle">
-				<h1 class="title">Приложение<span>diagnost</span></h1><a href="#" target="_blank" class="icon ic-appstore"></a>
+				<h1 class="section__title title">Приложение<span>diagnost</span></h1><a href="#" target="_blank" class="icon ic-appstore"></a>
 			</div>
 			<div class="border-decor border-decor__child border-decor__color-3 border-decor__odd">
 				<p>ДИАГНОСТ является интегрированной платформой профилактической медицины с целью мониторинга вашего здоровья. Наша задача - улучшить качество вашей жизни. Платформа ДИАГНОСТ содержит множество учебных материалов в нашем блоге о здоровье, страницу личного кабинета, описание медицинских показателей и многое другое.</p>

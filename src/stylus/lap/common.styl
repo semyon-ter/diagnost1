@@ -15,15 +15,17 @@
 		maxWth 625px
 
 .social
-	& > a
-		w 35px
-		h 35px
-		bgPos((center)imp())
-.social__facebook
-	bgSize((35%)imp())
-.social__instagram
-	bgSize((45%)imp())
-.social__twitter
-	bgSize((50%)imp())
-.social__youtube
-	bgSize((40%)imp())	
+	&.social__box
+		& > a
+			w 35px
+			h 35px
+			bgPos((center)imp())
+.social__box
+	.social__facebook
+		bgSize((35%)imp())
+	.social__instagram
+		bgSize((45%)imp())
+	.social__twitter
+		bgSize((50%)imp())
+	.social__youtube
+		bgSize((40%)imp())	
