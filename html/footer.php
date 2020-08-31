@@ -1,8 +1,8 @@
 
-<footer class="section footer footer_fix-bottom">
+<footer class="footer footer_fix-bottom">
 	<div class="footer__content">
 		<div class="footer__subscribe">
-			<h2 class="footer__title title">Подпишитесь на нашу <span>рассылку</span></h2>
+			<h2 class="title title_footer footer__title">Подпишитесь на нашу <span>рассылку</span></h2>
 			<p>Актуальные новости по теме здорового образа жизни и эксклюзивные предложения от нашей компании.</p>
 			<form action="./" class="footer__subscribe-form form form_subscribe">
 				<input type="email" placeholder="Email" class="form__input form__input_email"/>
@@ -10,12 +10,12 @@
 			</form>
 		</div>
 		<div class="footer__social">
-			<h2 class="footer__title title">Мы в социальных <span>сетях</span></h2>
+			<h2 class="title title_footer footer__title">Мы в социальных <span>сетях</span></h2>
 			<p>Следите за развитием нашей платформы в удобном для вас формате</p>
 			<div class="footer__social-items social social_footer"><a href="./" class="social__facebook"></a><a href="./" class="social__instagram"></a><a href="./" class="social__twitter"></a><a href="./" class="social__youtube"></a></div>
 		</div>
 	</div>
-	<div class="navi navi_footer">
+	<div class="footer__navi navi navi_footer">
 		<div class="navi__container">
 			<ul class="navi__menu menu">
 				<li class="menu-item"><a href="./">Главная</a></li>

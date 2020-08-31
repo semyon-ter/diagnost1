@@ -38,6 +38,7 @@ Sc =
       p = $('._popup-box').find('._popup-item[data-popup='+lp+']')
       p.addClass('show')
       $('html, body').addClass('ov-hidden')
+    #close popoup  
     $('._popup-cls').click ->
       $('._popup-box, ._popup-item').removeClass('show')
       $('html, body').removeClass('ov-hidden')

@@ -44,6 +44,7 @@ Sc = {
       p.addClass('show');
       return $('html, body').addClass('ov-hidden');
     });
+    //close popoup  
     $('._popup-cls').click(function() {
       $('._popup-box, ._popup-item').removeClass('show');
       return $('html, body').removeClass('ov-hidden');

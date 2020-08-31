@@ -83,12 +83,17 @@ button,input,select,textarea
   w 100%
   margin 0px auto
   bbox()
+  &.section__content
+    maxWth $WIDTH
+    zIn 2 
   &.page-container_pad-1
       pl 41px
       pr 41px
-  &.section__content
-    maxWth $WIDTH
-    zIn 2
+  &.page-container_pad-2
+      pl 80px
+      pr 80px
+  &.page-container_width-2
+      maxWth 1860px
   p
     tali justify
     //fsize 77% 
@@ -141,7 +146,10 @@ button,input,select,textarea
   bbox()
 
 .none
-  dnone()   
+  dnone()
+  
+.posrel
+  posrel()     
 
 marg(zt)
 for zt in 0..100
@@ -186,7 +194,7 @@ padd(0,300)
     c $color1-1
   
 .fake-head
-  h 165px
+  h 150px
   
 .navi_colored
   bgColor $color6-1

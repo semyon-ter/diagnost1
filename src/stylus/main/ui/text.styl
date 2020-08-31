@@ -112,4 +112,23 @@ ul, ol
 					w 6px
 					h 6px
 					bRad 50%
-					bgColor $color1-1			
+					bgColor $color1-1
+					
+.content-box
+	p, ul.list, ol.list
+		mb 20px
+		& + h2, & + h3, & + h4, & + h5, & + h6
+			mt 40px
+	h2, h3, h4, h5, h6
+		mb 20px
+		fsize 115%
+		ttUp()
+		ffam GB,sans-serif		
+		&:before
+			content ''
+			posrel()
+			dblock()
+			w 45px
+			h 4px
+			mb 10px
+			bgColor $color7-1			
