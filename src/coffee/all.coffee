@@ -69,7 +69,30 @@ Sc =
         if f.is('div')
           f.text(t)
         else if f.is('input')
-          f.val(t)    
+          f.val(t)
+
+    #faq
+    $('._faq-head:not(.inited)').addClass('inited').click ->
+      h = $(@)
+      i = h.closest('._faq-item')
+      b = i.find('._faq-body')
+      l = h.closest('._faq-list')
+      if i.hasClass('selected')
+        i.removeClass('selected')
+        b.slideUp('300')
+      else
+        i.addClass('selected')
+        b.slideDown('300')
+      l.find('._faq-item').not(i).removeClass('selected')
+      l.find('._faq-body').not(b).slideUp('300')
+      setTimeout (->
+        # Ваш скрипт
+        elC = h.attr('data-href')
+        hh = $('.fake-head').outerHeight()
+        dest = $(elC).offset().top - hh - 10
+        $('body,html').animate { scrollTop: dest }, 300
+        return
+      ), 500          
 
     Sc.initPerfectScrollBar()
 
