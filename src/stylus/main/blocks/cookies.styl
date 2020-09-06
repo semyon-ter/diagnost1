@@ -1,0 +1,43 @@
+.cookie
+	posfix()
+	bottom 43px
+	l 0
+	w 100%
+	zIn 300
+	pl 10px
+	pr 10px
+	bbox()
+	pointer-events none
+	op 0
+	tPD(.3s)
+	&.active
+		op 1
+		pointer-events auto
+	.cookie__container
+		maxWth 787px
+		ml auto
+		mr auto
+		bgColor $color1-2
+		bRad 20px
+		dflex()
+		jcont space-between
+		aItem center
+		p(17px 20px 17px 30px)
+		bbox()
+	.cookie__txt		
+		pr 30px
+		bbox()
+		flex-shrink 1
+		fsize 17px
+		lht 1.2
+		c $color3-5
+		//ffam $FONT2
+		a
+			c $color4-4			
+	.cookie__close
+		cPoint()
+	.cookie__delimiter
+		w 1px
+		h 28px
+		bgColor $color3-5
+		mr 24px	

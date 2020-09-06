@@ -52,7 +52,9 @@
 	&.t-color3
 		c $color6-1
 	&.t-color4
-		c $color3-5				
+		c $color3-5
+	&.t-color5
+		c $color7-1					
 		
 a
 	c inherit
@@ -134,7 +136,31 @@ ul, ol
 						h 4px
 						mb 10px
 						bgColor $color7-1
-									
+		&.content-box__decor-2
+			h2, h3, h4, h5, h6
+				&:before
+					dnone()
+				&:first-child
+					&:before
+						content ''
+						posrel()
+						dblock()
+						w 45px
+						h 4px
+						mb 10px
+						bgColor $color7-1
+		&.content-box__margin-1
+			p, ul, ol
+				& + h2, & + h3, & + h4, & + h5, & + h6
+					mt 20px
+		&.content-box__margin-2
+			ul, ol
+				li
+					& + li 
+						mt 20px			
+		&.content-box__font-size-caps-1
+			h2, h3, h4, h5, h6
+				fsize 129%	
 		p, ul, ol
 			mb 20px
 			tali justify

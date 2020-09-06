@@ -113,6 +113,13 @@ Sc = {
         }, 300);
       }), 500);
     });
+    //cookies
+    $('._cookie__close').click(function() {
+      var p, t;
+      t = $(this);
+      p = t.closest('._cookie');
+      return p.removeClass('active');
+    });
     Sc.initPerfectScrollBar();
     Sc.scroll();
     Sc.Win.scroll(function() {

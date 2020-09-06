@@ -92,7 +92,13 @@ Sc =
         dest = $(elC).offset().top - hh - 10
         $('body,html').animate { scrollTop: dest }, 300
         return
-      ), 500          
+      ), 500
+
+    #cookies
+    $('._cookie__close').click ->
+      t = $(@)
+      p = t.closest('._cookie')
+      p.removeClass('active')            
 
     Sc.initPerfectScrollBar()
 
