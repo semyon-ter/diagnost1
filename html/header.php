@@ -37,14 +37,18 @@
 				</div>
 			</div>
 			<div data-popup="f1" class="popup-item popup-item__width-2 _popup-item">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="decor decor__elem-22">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="decor decor__elem-31">
 					<circle cx="50" cy="50" r="50"></circle>
 				</svg>
 				<div class="popup-close _popup-cls"></div>
 				<div class="popup-content">
-					<h2 class="title title_color-1 border-decor border-decor__parent border-decor__color-2"><span>Восстановление пароля</span></h2>
-					<div class="w"></div>
+					<h2 class="title title_color-1 border-decor border-decor__parent border-decor__color-2"><span>Восстановление пароля			</span></h2>
 					<input type="email" placeholder="Введите ваш Еmail" class="form__input v2 form__input_email mr-0 col-100">
+					<div class="popup__txt-1">Укажите адрес эл. почты, который вы использовали при оформлении заказов. Мы вышлем вам инструкцию по восстановлению пароля.</div>
+					<div class="tac">
+						<button class="button">ВОССТАНОВИТЬ ПАРОЛЬ</button>
+						<div class="mt-26"><a href="#" class="t t-fs17 t-color6 _popup-cls">Вернуться назад</a></div>
+					</div>
 				</div>
 			</div>
 		</div>
