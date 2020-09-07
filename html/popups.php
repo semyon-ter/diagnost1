@@ -35,4 +35,26 @@
 			</div>
 		</div>
 	</div>
+	<div data-popup="f2" class="popup-item popup-item__width-3 _popup-item">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="decor decor__elem-31">
+			<circle cx="50" cy="50" r="50"></circle>
+		</svg>
+		<div class="popup-close _popup-cls"></div>
+		<div class="popup-content">
+			<h2 class="title title_color-1 border-decor border-decor__parent border-decor__color-2"><span>Вход</span></h2>
+			<div class="popup__soc-auth flex f-between f-middle">
+				<div class="icon ic-soc ic-facebook pointer"></div>
+				<div class="icon ic-soc ic-instagram pointer"></div>
+				<div class="icon ic-soc ic-google pointer"></div>
+			</div>
+			<input type="text" placeholder="Логин" class="form__input v2 form__input_email mr-0 col-100"/>
+			<input type="password" placeholder="Пароль" class="form__input v2 form__input_email mr-0 col-100"/>
+			<div class="popup__txt-2">Неверный пароль </div>
+			<div class="tac">
+				<button class="button button__color-1">ВОЙТИ</button>
+				<div class="mt-26"><a href="#" class="t t-fs17 t-color6 _popup-cls">Вернуться назад</a></div>
+				<div class="mt-20"><a href="#" class="t t-fs17 t-color6 _popup-cls">Регистрация</a></div>
+			</div>
+		</div>
+	</div>
 </div>

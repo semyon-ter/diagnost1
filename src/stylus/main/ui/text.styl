@@ -74,6 +74,12 @@ a
 h1, h2, h3, h4, h5, h6			
 	&.item-title__fs-t1
 		fsize 115%
+	&.item-title__fs-t2
+		fsize 160%
+		ttr inherit
+		ffam GBL,sans-serif
+	&.title_color-1
+		c $color3-5		
 .title
 	&.title_color-1
 		c $color3-5
@@ -81,6 +87,10 @@ h1, h2, h3, h4, h5, h6
 /* text */
 .item-text__border-none
 	p
+		&:before
+			content none
+.item-title__border-none
+	h2, h3, h4, h5, h6
 		&:before
 			content none
 			
@@ -164,12 +174,20 @@ ul, ol
 						mt 20px			
 		&.content-box__font-size-caps-1
 			h2, h3, h4, h5, h6
-				fsize 129%	
+				fsize 129%
+		&.content-box__links-color-1
+			a
+				c $color4-4				
+		&.content-box__tal
+			p, ul, ol
+				tali left			
 		p, ul, ol
 			mb 20px
 			tali justify
 			& + h2, & + h3, & + h4, & + h5, & + h6
 				mt 40px
+		b, strong
+			ffam GB,sans-serif			
 		ul
 			list-style none
 			p 0

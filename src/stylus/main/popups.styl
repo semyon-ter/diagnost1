@@ -48,7 +48,18 @@
 			.title
 				mb 45px
 			.popup-close
-				r 61px		
+				r 61px
+		&.popup-item__width-3
+			w 100%
+			maxWth 511px
+			p(80px 60px 60px)
+			.title
+				mb 45px
+				pl 62px
+				&:before
+					l 62px
+			.popup-close
+				r 86px				
 		&.show 
 			dblock()	
 		.popup-close
@@ -72,7 +83,7 @@
 		.scrollbar-track-y.show
 			display block !important
 			.scrollbar-thumb-y
-				h 53px			
+				h 53px							
 	.popup-close
 		w 35px
 		h 35px
@@ -97,4 +108,21 @@
 		ml auto
 		mr auto
 		maxWth 260px
+	.popup__txt-2
+		tcenter()
+		fsize 17px
+		c $color7-1
+		lht 1.2
+		ml auto	
+		mr auto
+		pt 18px
+		pb 23px	
+	.form__input
+		& + .form__input
+			mt 30px
+	.popup__soc-auth
+		mb 30px
+		pl 17px
+		pr 17px
+		bbox()	
 			

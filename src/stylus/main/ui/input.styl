@@ -15,8 +15,14 @@ input, div, textarea, select
 		+pholder()
 			c $color3-3
 			
-.form__input.v2
-	bbox()			
+.form__input
+	&.v2
+		bbox()
+		outline none
+		fgrow 0
+		&.form__input_width-1
+			maxWth 280px
+			w 100%
 			
 .select
 	dinblock()
@@ -110,4 +116,40 @@ input, div, textarea, select
 		bgNR()
 		bbox()
 		b(1px solid $color3-3)
-		bRad(4px)	
+		bRad(4px)
+		
+
+.counter
+	dflex()  
+	button
+		w 35px
+		h 35px
+		bRad 50%
+		cursor pointer
+		tP(.3s)
+		bgPos center
+		bgNR()
+		b 0
+		bgSize 15px	
+		&.counter__minus
+			bgColor $color4-4
+			bgImg url(pics/icons/minus.svg)
+		&.counter__plus
+			bgColor $color7-1
+			bgImg url(pics/icons/plus.svg)
+		&.disable
+			pEvent none
+			bgColor $color3-8
+		&:focus
+			outline none		
+	.counter__count
+		fsize 25px
+		c $color3-5
+		b(0)
+		bgColor transparent
+		w 54px
+		tcenter()
+		bbox()
+		pEvent none
+		&:focus
+			outline none		

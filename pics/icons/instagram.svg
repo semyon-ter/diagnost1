@@ -1,0 +1,22 @@
+<svg viewBox="0 0 57 57" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clippath1" transform="">
+      <path d="M 0 56.333 L 56.333 56.333 L 56.333 0 L 0 0 Z" style="fill: none; clip-rule: nonzero;"></path>
+    </clipPath>
+  </defs>
+  <g transform="matrix(1, 0, 0, -1, 0, 57)">
+    <g transform="">
+      <path d="M 0 56.333 L 56.333 56.333 L 56.333 0 L 0 0 Z" style="fill: none;"></path>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(56.333 28.166)">
+        <path d="M 0 0 C 0 -15.556 -12.611 -28.166 -28.167 -28.166 C -43.723 -28.166 -56.333 -15.556 -56.333 0 C -56.333 15.556 -43.723 28.167 -28.167 28.167 C -12.611 28.167 0 15.556 0 0" style="fill: rgb(89, 34, 225); fill-opacity: 1;"></path>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(28.1665 19.8105)">
+        <path d="M 0 0 C -4.615 0 -8.356 3.741 -8.356 8.356 C -8.356 12.971 -4.615 16.712 0 16.712 C 4.615 16.712 8.355 12.971 8.355 8.356 C 8.355 3.741 4.615 0 0 0 M 14.058 22.414 C 12.406 24.065 10.213 24.975 7.884 24.975 L -7.885 24.975 C -12.701 24.975 -16.62 21.057 -16.62 16.24 L -16.62 0.471 C -16.62 -4.345 -12.701 -8.264 -7.885 -8.264 L 7.884 -8.264 C 12.701 -8.264 16.62 -4.345 16.62 0.471 L 16.62 16.24 C 16.62 18.569 15.709 20.762 14.058 22.414" style="fill: rgb(255, 255, 255); fill-opacity: 1;"></path>
+      </g>
+    </g>
+  </g>
+</svg>

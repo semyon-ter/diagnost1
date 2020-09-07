@@ -3,19 +3,10 @@ var Sc;
 Sc = {
   resize: function() {},
   scroll: function() {},
-  /*if Sc.Win.scrollTop() > 30
-    $('#head').addClass('bgc-color')
-  else  
-    $('#head').removeClass('bgc-color')*/
   initPerfectScrollBar: function() {
     var r;
     r = $('._roller');
     return $.each(r, function() {
-      
-      //$t = $(@)
-      //if Sc.Win.width() < 767
-      //  $t.stopPropagation()
-      //else
       Scrollbar.use(OverscrollPlugin);
       return Scrollbar.initAll({
         alwaysShowTracks: true,
@@ -32,8 +23,7 @@ Sc = {
   },
   init: function() {
     Sc.Win = $(window);
-    //Sc.initPerfectScrollBar()
-
+    
     //open popoup
     $('._open-popup').click(function() {
       var lp, p, t;
@@ -120,13 +110,55 @@ Sc = {
       p = t.closest('._cookie');
       return p.removeClass('active');
     });
+    
+    //counter
+    /*count = $('._count')  
+    $.each count, ->
+      t = $(@)
+      $countV = t.val()-0
+      console.log $countV
+      if $countV = '1'
+        $('._minus').addClass('disable')
+      else
+        $('._minus').removeClass('disable')*/
+    $('._counter ._plus:not(.inited)').addClass('inited').click(function() {
+      var bM, i, n, p, s, sv;
+      p = $(this).closest('._counter');
+      s = p.find('._count');
+      sv = s.val();
+      i = p.find('._val');
+      n = sv;
+      n++;
+      i.val(n);
+      s.val(n);
+      bM = p.find('._minus');
+      return bM.removeClass('disable');
+    });
+    $('._counter ._minus:not(.inited)').addClass('inited').click(function() {
+      var i, n, p, s, sv;
+      p = $(this).closest('._counter');
+      s = p.find('._count');
+      sv = s.val();
+      i = p.find('._val');
+      n = sv;
+      if (n > 1) {
+        n--;
+        i.val(n);
+        s.val(n);
+        if (n === 1) {
+          return $(this).addClass('disable');
+        }
+      } else {
+        return $(this).addClass('disable');
+      }
+    });
     Sc.initPerfectScrollBar();
     Sc.scroll();
     Sc.Win.scroll(function() {
       return Sc.scroll();
     });
     Sc.scroll();
-    //$("input[name=custom_phone]").mask("+7 (999) 999-99-99");
+    $("input[name=custom_phone]").mask("+7 999 999 99 99");
     Sc.Win.resize(function() {
       return Sc.resize();
     });

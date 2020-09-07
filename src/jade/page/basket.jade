@@ -1,0 +1,53 @@
+section.page-wrapper.section.page_basket
+	.section__decor
+		svg.decor.decor__elem-32(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100")
+			circle(cx="50" cy="50" r="50")
+	.section__content.page-container.page-container_pad-1
+		h1.section__title.title.title_color-1 <span>Корзина</span>
+		.indent.i-3.border-decor.border-decor__parent.border-decor__color-1
+			.indent.i-3.flex.f-middle.f-mob-wrap.f-between
+				.icon.ic-close2.pointer.indent_mr-1.f-shrink-0
+				a.flex.f-shrink-0.f-middle.dev-dn-mob(href="#")
+					.icon.ic-product.dev-dn-pad
+					.icon.ic-checkup.indent_ml-1
+						img(src="src-main/images/icon-metabo.svg")
+				.content-box.content-box__color-1.flex.f-center.p__mb-none.col-37.col-pad-42.f-shrink-0.content-box__tal
+					p
+						a(href="#")
+							b Метабокардио чекап
+				.f-shrink-0.counter._counter.indent_px-1
+					button.counter__minus._minus
+					input.counter__count._count(type="text" value="2")
+					button.counter__plus._plus
+					input.counter__val._val(type="hidden")
+				.content-box.content-box__color-1.flex.f-pad-f-end.f-center.p__mb-none.f-grow-1.content-box__tal.col-mob-100
+					p.indent_ml-2.page_basket__price
+						big <b>10 000</b> руб.
+			.indent.i-3.flex.f-middle.f-mob-wrap.f-between
+				.icon.ic-close2.pointer.indent_mr-1.f-shrink-0
+				a.flex.f-shrink-0.f-middle.dev-dn-mob(href="#")
+					.icon.ic-product.dev-dn-pad
+					.icon.ic-checkup.indent_ml-1
+						img(src="src-main/images/icon-full.svg")
+				.content-box.content-box__color-1.flex.f-center.p__mb-none.col-37.col-pad-42.f-shrink-0.content-box__tal
+					p
+						a(href="#")
+							b Полный чекап
+				.f-shrink-0.counter._counter.indent_px-1
+					button.counter__minus._minus.disable
+					input.counter__count._count(type="text" value="1")
+					button.counter__plus._plus
+					input.counter__val._val(type="hidden")
+				.content-box.content-box__color-1.flex.f-center.f-pad-f-end.p__mb-none.f-grow-1.content-box__tal.col-mob-100
+					p.indent_ml-2.page_basket__price
+						big <b>5 000</b> руб.
+		.indent.i-3.flex.f-flexDir-mob-column
+			input.form__input.v2.form__input_email.indent_mr-2.form__input_width-1(type="text" placeholder="Промо-код")
+			button.button.button__color-2.button__px-1 ПРИМЕНИТЬ
+		.indent.i-3
+			.border-decor.border-decor__parent.border-decor__color-1.item-title__border-none
+				h2.how__item-title.how__item-title_tal.item-title__fs-t2.title_color-1
+					span Итого: 15 000 руб.
+				.content-box.content-box__color-1.content-box__links-color-1
+					p Согласен с условиями <a href='#'>Публичной оферты</a>
+				button.button ОФОРМИТЬ	

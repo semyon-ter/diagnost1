@@ -2,18 +2,10 @@ Sc =
   resize:()-> 
 
   scroll:()->    
-    ###if Sc.Win.scrollTop() > 30
-      $('#head').addClass('bgc-color')
-    else  
-      $('#head').removeClass('bgc-color')###
 
   initPerfectScrollBar:->
     r  = $('._roller')
-    $.each r, -> 
-      #$t = $(@)
-      #if Sc.Win.width() < 767
-      #  $t.stopPropagation()
-      #else
+    $.each r, ->       
       Scrollbar.use OverscrollPlugin        
       Scrollbar.initAll({
         alwaysShowTracks: true
@@ -28,8 +20,7 @@ Sc =
 
   init:()->
     Sc.Win = $(window)
-    #Sc.initPerfectScrollBar()
-
+    
     #open popoup
     $('._open-popup').click ->
       t = $(@)
@@ -98,7 +89,43 @@ Sc =
     $('._cookie__close').click ->
       t = $(@)
       p = t.closest('._cookie')
-      p.removeClass('active')            
+      p.removeClass('active')  
+
+    #counter
+    ###count = $('._count')  
+    $.each count, ->
+      t = $(@)
+      $countV = t.val()-0
+      console.log $countV
+      if $countV = '1'
+        $('._minus').addClass('disable')
+      else
+        $('._minus').removeClass('disable')###
+    $('._counter ._plus:not(.inited)').addClass('inited').click ->
+      p = $(@).closest('._counter')
+      s = p.find('._count')
+      sv = s.val()
+      i = p.find('._val')
+      n = sv
+      n++
+      i.val(n)
+      s.val(n)
+      bM = p.find('._minus')
+      bM.removeClass('disable')
+    $('._counter ._minus:not(.inited)').addClass('inited').click ->
+      p = $(@).closest('._counter')
+      s = p.find('._count')
+      sv = s.val()
+      i = p.find('._val')
+      n = sv      
+      if n > 1
+        n--
+        i.val(n)
+        s.val(n)
+        if n == 1
+          $(@).addClass('disable')        
+      else
+        $(@).addClass('disable')              
 
     Sc.initPerfectScrollBar()
 
@@ -108,7 +135,7 @@ Sc =
       Sc.scroll()
     Sc.scroll()
 
-    #$("input[name=custom_phone]").mask("+7 (999) 999-99-99");
+    $("input[name=custom_phone]").mask("+7 999 999 99 99");
 
     Sc.Win.resize ->
       Sc.resize()
