@@ -34,6 +34,7 @@ Sc = {
       p = $('._popup-box').find('._popup-item[data-popup=' + lp + ']');
       p.closest('._popup-box').addClass('show');
       p.addClass('show');
+      $('._popup-item').not(p).removeClass('show');
       return $('html, body').addClass('ov-hidden');
     });
     //close popoup  
