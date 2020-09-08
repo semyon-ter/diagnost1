@@ -12,6 +12,7 @@ Sc = {
         alwaysShowTracks: true,
         continuousScrolling: true,
         damping: 0.05,
+        thumbMinSize: 32,
         plugins: {
           effect: 'bounce',
           damping: 0.03,
@@ -29,8 +30,9 @@ Sc = {
       var lp, p, t;
       t = $(this);
       lp = t.attr('data-link-to-popup');
-      $('._popup-box').addClass('show');
+      //$('._popup-box').addClass('show')
       p = $('._popup-box').find('._popup-item[data-popup=' + lp + ']');
+      p.closest('._popup-box').addClass('show');
       p.addClass('show');
       return $('html, body').addClass('ov-hidden');
     });

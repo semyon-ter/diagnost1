@@ -36,6 +36,9 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="popups-box _popup-box">
+			<div class="popup-bg _popup-cls"></div>
 			<div data-popup="f1" class="popup-item popup-item__width-2 _popup-item">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="decor decor__elem-31">
 					<circle cx="50" cy="50" r="50"></circle>

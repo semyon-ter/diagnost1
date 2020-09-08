@@ -32,12 +32,31 @@
 								<input type="text" placeholder="Город" class="_i form__input v2 form__input_email mr-0 col-100"/>
 								<div class="select-tri"></div>
 								<div class="select-box">
-									<div class="sb-roller roller _roller">
+									<div class="option">Город</div>
+									<div data-scrollbar="true" class="sb-roller roller _roller">
+										<div class="option _option">Москва	</div>
+										<div class="option _option">Санкт-Петербург	</div>
+										<div class="option _option">Ростов на Дону	</div>
+										<div class="option _option">Калуга	</div>
+										<div class="option _option">Саратов	</div>
+										<div class="option _option">Владивосток	</div>
+										<div class="option _option">Норильск	</div>
+										<div class="option _option">Курск	</div>
+										<div class="option _option">Екатеринбург	</div>
+										<div class="option _option">Ростов Великий	</div>
+										<div class="option _option">Симферополь</div>
 										<div class="option _option">Город	</div>
 										<div class="option _option">Москва	</div>
 										<div class="option _option">Санкт-Петербург	</div>
 										<div class="option _option">Ростов на Дону	</div>
 										<div class="option _option">Калуга	</div>
+										<div class="option _option">Саратов	</div>
+										<div class="option _option">Владивосток	</div>
+										<div class="option _option">Норильск	</div>
+										<div class="option _option">Курск	</div>
+										<div class="option _option">Екатеринбург	</div>
+										<div class="option _option">Ростов Великий	</div>
+										<div class="option _option">Симферополь	</div>
 									</div>
 								</div>
 							</div>
