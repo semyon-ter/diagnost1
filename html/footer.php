@@ -2,7 +2,7 @@
 <footer class="footer footer_fix-bottom">
 	<div class="footer__content">
 		<div class="footer__subscribe">
-			<h2 class="title title_footer footer__title">Подпишитесь на нашу <span>рассылку</span></h2>
+			<h2 class="title title_footer footer__title">Подпишитесь на нашу<span>рассылку</span></h2>
 			<p>Актуальные новости по теме здорового образа жизни и эксклюзивные предложения от нашей компании.</p>
 			<form action="./" class="footer__subscribe-form form form_subscribe">
 				<input type="email" placeholder="Email" class="form__input form__input_email"/>
