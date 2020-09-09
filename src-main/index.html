@@ -11,37 +11,42 @@
 
 <div class="navi navi_top" data-top_offset="50" data-bg_color="#5922e1">
 	<div class="navi__container">
-		<span class="menu-open"></span>
+		<span class="menu__open"></span>
 		<ul class="navi__menu menu">
-			<span class="menu-close"></span>
-			<li class="menu-item"><a href="./">Главная</a></li>
-			<li class="menu-item menu-item-has-children"><a href="./">Принципы работы</a>
-				<ul class="sub-menu">
-					<li class="menu-item"><a href="./">Consectetur</a></li>
-					<li class="menu-item"><a href="./">Adipisicing</a></li>
-					<li class="menu-item"><a href="./">Reprehenderit</a></li>
-					<li class="menu-item"><a href="./">Ipsum dolor</a></li>
+			<span class="menu__close"></span>
+			<li class="menu__item"><a href="./">Главная</a></li>
+			<li class="menu__item menu__item_haschild"><a href="./">Принципы работы</a>
+				<ul class="menu_submenu">
+					<li class="menu__item"><a href="./">Consectetur</a></li>
+					<li class="menu__item"><a href="./">Adipisicing</a></li>
+					<li class="menu__item"><a href="./">Reprehenderit</a></li>
+					<li class="menu__item"><a href="./">Ipsum dolor</a></li>
 				</ul>
 			</li>
-			<li class="menu-item menu-item-has-children"><a href="./">Чекапы</a>
-				<ul class="sub-menu">
-					<li class="menu-item"><a href="./">Базовый</a></li>
-					<li class="menu-item"><a href="./">Полный</a></li>
-					<li class="menu-item"><a href="./">Метабокардио</a></li>
-					<li class="menu-item"><a href="./">Сон</a></li>
-					<li class="menu-item"><a href="./">Витамин D</a></li>
+			<li class="menu__item menu__item_haschild"><a href="./">Чекапы</a>
+				<ul class="menu_submenu">
+					<li class="menu__item"><a href="./">Базовый</a></li>
+					<li class="menu__item"><a href="./">Полный</a></li>
+					<li class="menu__item"><a href="./">Метабокардио</a></li>
+					<li class="menu__item"><a href="./">Сон</a></li>
+					<li class="menu__item"><a href="./">Витамин D</a></li>
 				</ul>
 			</li>
-			<li class="menu-item"><a href="./">Приложение</a></li>
-			<li class="menu-item"><a href="./">FAQ</a></li>
-			<li class="menu-item"><a href="./">О нас</a></li>
-			<li class="menu-item"><a href="./">Контакты</a></li>
+			<li class="menu__item"><a href="./">Приложение</a></li>
+			<li class="menu__item"><a href="./">FAQ</a></li>
+			<li class="menu__item"><a href="./">О нас</a></li>
+			<li class="menu__item"><a href="./">Контакты</a></li>
 		</ul>
 		<div class="navi__lang">
 			<a class="navi__lang-active" href="./">RU</a>
 			<a href="./">EN</a>
 		</div>
-		<a href="./" class="navi__login"></a>
+		<div class="navi__user user">
+			<div class="user__wrapper">
+				<a href="./" class="user__link">Профиль</a>
+				<a href="./" class="user__link">История покупок</a>
+			</div>
+		</div>
 		<a href="./" class="navi__cart">
 			<span class="navi__cart-counter navi__cart-counter_noempty">99</span>
 		</a>
@@ -49,279 +54,279 @@
 </div> 
 
 <div class="fullpage">
-<section class="section section_hero hero">
-	<div class="section__decor">
-		<img class="hero__decor1" src="./images/diagnost.svg" alt="">
-		<svg class="hero__decor2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="hero__decor3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="hero__decor4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="hero__decor5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="hero__decor6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="hero__decor7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="hero__decor8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="hero__decor9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="hero__decor10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="hero__decor11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="hero__decor12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="hero__decor13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-	</div>
-	<div class="hero__about">
-		<h1 class="hero__designation">Платформа мониторинга здоровья</h1>
-		<div class="hero__checkups slider slider_hero owl-carousel">
-			<a href="./" class="slider__item">
-				<img src="./images/icon-base.svg" alt="">
-				<span>Базовый <span>чекап</span></span>
-			</a>
-			<a href="./" class="slider__item">
-				<img src="./images/icon-full.svg" alt="">
-				<span>Полный <span>чекап</span></span>
-			</a>
-			<a href="./" class="slider__item">
-				<img src="./images/icon-metabo.svg" alt="">
-				<span>Метабокардио <span>чекап</span></span>
-			</a>
-			<a href="./" class="slider__item">
-				<img src="./images/icon-sleep.svg" alt="">
-				<span>Сон <span>чекап</span></span>
-			</a>
-			<a href="./" class="slider__item">
-				<img src="./images/icon-vitamin.svg" alt="">
-				<span>Витамин D <span>чекап</span></span>
-			</a>
+	<section class="section section_hero hero">
+		<div class="section__decor">
+			<img class="hero__decor1" src="./images/diagnost.svg" alt="">
+			<svg class="hero__decor2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="hero__decor3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="hero__decor4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="hero__decor5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="hero__decor6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="hero__decor7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="hero__decor8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="hero__decor9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="hero__decor10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="hero__decor11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="hero__decor12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="hero__decor13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
 		</div>
-	</div>
-</section>
-<section class="section section_purpose purpose">
-	<div class="section__decor">
-		<svg class="purpose__decor1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="purpose__decor2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="purpose__decor3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="purpose__decor4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="purpose__decor5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="purpose__decor6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="purpose__decor7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="purpose__decor8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="purpose__decor9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="purpose__decor10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-	</div>
-	<div class="section__content">
-		<div class="section__article">
-			<h1 class="section__title title">Для кого предназначен <span>diagnost?</span></h1>
-			<div class="purpose__text">
-				<p>Это инновационная и современная платформа для людей любой демографической группы и любого возраста, которые хотели бы лучше понять свое здоровье. Наше здоровье влияет на качество нашей жизни, долголетие и наше поведение, однако все мы знаем что все это  носит взаимный характер и наш образ жизни и привычки оказывают сильное действие на наше самочувствие.</p>		
-				<p>Только знакомясь с нашим состоянием здоровья и благотворно влияя на него, мы можем улучшить и смягчить любые негативные воздействия на него, отсрочить или предотвратить многие болезни.</p>		
+		<div class="hero__about">
+			<h1 class="hero__designation">Платформа мониторинга здоровья</h1>
+			<div class="hero__checkups slider slider_hero owl-carousel">
+				<a href="./" class="slider__item">
+					<img src="./images/icon-base.svg" alt="">
+					<span>Базовый <span>чекап</span></span>
+				</a>
+				<a href="./" class="slider__item">
+					<img src="./images/icon-full.svg" alt="">
+					<span>Полный <span>чекап</span></span>
+				</a>
+				<a href="./" class="slider__item">
+					<img src="./images/icon-metabo.svg" alt="">
+					<span>Метабокардио <span>чекап</span></span>
+				</a>
+				<a href="./" class="slider__item">
+					<img src="./images/icon-sleep.svg" alt="">
+					<span>Сон <span>чекап</span></span>
+				</a>
+				<a href="./" class="slider__item">
+					<img src="./images/icon-vitamin.svg" alt="">
+					<span>Витамин D <span>чекап</span></span>
+				</a>
 			</div>
 		</div>
-	</div>
-</section>
-<section class="section section_offers offers">
-	<h1 class="section__title section__title_wide title">Что предлагает<span>diagnost?</span></h1>
-	<div class="offer__slider slider slider_offer">
-		<div class="slider__items owl-carousel">
-			<div class="slider__item">
-				<img src="./images/slide_icon_1.svg" alt="" class="slider__icon">
-				<div class="slider__text">Cпециальный и высокоточный анализ ваших клинических и биохимических показателей с последующими персонализированными рекомендациями и решениями</div>
-			</div>
-			<div class="slider__item">
-				<img src="./images/slide_icon_2.svg" alt="" class="slider__icon">
-				<div class="slider__text">Четкое, профессиональное толкование и объяснение ваших результатов</div>
-			</div>
-			<div class="slider__item">
-				<img src="./images/slide_icon_3.svg" alt="" class="slider__icon">
-				<div class="slider__text">Онлайн поддержка и консультации с международными специалистами в области превентивной медицины, эндокринологии и анти-возрастной медицины (антиэйджинг)</div>
-			</div>
-			<div class="slider__item">
-				<img src="./images/slide_icon_4.svg" alt="" class="slider__icon">
-				<div class="slider__text">Удобное и интуитивно понятное отслеживание ваших результатов</div>
-			</div>
-			<div class="slider__item">
-				<img src="./images/slide_icon_5.svg" alt="" class="slider__icon">
-				<div class="slider__text">индивидуальная настройка и корректировка вашего плана питания</div>
-			</div>
-			<div class="slider__item">
-				<img src="./images/slide_icon_6.svg" alt="" class="slider__icon">
-				<div class="slider__text">уникальные программы для стимулирования регенеративных процессов против старения и улучшения качества жизни</div>
-			</div>
+	</section>
+	<section class="section section_purpose purpose">
+		<div class="section__decor">
+			<svg class="purpose__decor1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="purpose__decor2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="purpose__decor3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="purpose__decor4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="purpose__decor5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="purpose__decor6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="purpose__decor7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="purpose__decor8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="purpose__decor9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="purpose__decor10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
 		</div>
-		<div class="slider__nav">
-			<div class="slider__dots"></div>
-		</div>
-	</div>
-</section>
-<section class="section section_testing testing">
-	<div class="section__decor">
-		<svg class="testing__decor1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50, 15 100, 100 0, 100"/></svg>
-		<svg class="testing__decor2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50, 15 100, 100 0, 100"/></svg>
-		<svg class="testing__decor3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50, 15 100, 100 0, 100"/></svg>
-		<svg class="testing__decor4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50, 15 100, 100 0, 100"/></svg>
-		<svg class="testing__decor5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50, 15 100, 100 0, 100"/></svg>
-		<svg class="testing__decor6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50, 15 100, 100 0, 100"/></svg>
-	</div>
-	<div class="section__content">
-		<div class="section__article">
-			<h1 class="section__title title">Что тестирует <span>diagnost?</span></h1>
-			<div class="testing__text">
-				<p>В наших тестах используются различные биологические материалы, такие как слюна, сухая моча или сухая капля крови в зависимости от типа теста и анализируемых параметров. Например, чтобы проверить, сбалансирован ли ваш уровень гормонов, ДИАГНОСТ использует сухую мочу, для того чтобы проверить значения метаболитов ваших гормонов. На основании этого мы можем сделать выводы относительно вашего гормонального баланса.</p>
-			</div>
-		</div>
-	</div>		
-</section>
-<section class="section section_knows knows">
-	<div class="section__decor">
-		<img class="knows__decor1" src="./images/screenapp.png" alt="">
-		<svg class="knows__decor2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
-		<svg class="knows__decor3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
-		<svg class="knows__decor4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
-		<svg class="knows__decor5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
-		<svg class="knows__decor6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
-	</div>
-	<div class="section__content">
-		<div class="section__article">
-			<h1 class="section__title title">Что вы узнаете, получив отчет <span>diagnost?</span></h1>
-			<div class="knows__text">
-				<p>Как только мы получим ваши результаты, команда врачей и специалистов интерпретирует их для вас в соответствии с вашими симптомами и приоритетами, ранее определенными в заполненной вами анкете. Мы определим, что и как в вашем индивидуальном случае нужно исправить, чтобы быть в балансе, а именно:</p>
-				<p>какие клинические и биохимические параметры соответствуют вашим симптомам и что происходит внутри вашего организма;</p>
-				<p>каковы нормальные и оптимальные уровни анти-возрастных параметров, и какой ваш текущий статус относительно этих показателей;</p>
-				<p>какие действия необходимо предпринять для достижения долгосрочного баланса вашего здоровья, устранения негативных симптомов и предотвращения заболеваний.</p>
-			</div>
-		</div>
-	</div>		
-</section>
-<section class="section section_checkup checkup">
-	<h1 class="section__title section__title_wide title">Чекапы <span>diagnost</span></h1>
-	<div class="section__content section__content_wide checkup__content">
-		<div class="checkup__box">
-			<img src="./images/box.png" alt="">
-		</div>
-		<div class="checkup__tab tab">
-			<div class="tab__titles">
-				<h2 class="tab__title tab__title_base tab__title_active">
-					<span>Базовый</span>
-					<span class="tab__title-icon">
-						<img src="./images/icon-base.svg" alt="">
-					</span>
-				</h2>
-				<h2 class="tab__title tab__title_full">
-					<span>Полный</span>
-					<span class="tab__title-icon">
-						<img src="./images/icon-full.svg" alt="">
-					</span>
-				</h2>
-				<h2 class="tab__title tab__title_metabo">
-					<span>Метабокардио</span>
-					<span class="tab__title-icon">
-						<img src="./images/icon-metabo.svg" alt="">
-					</span>
-				</h2>
-				<h2 class="tab__title tab__title_sleep">
-					<span>Сон</span>
-					<span class="tab__title-icon">
-						<img src="./images/icon-sleep.svg" alt="">
-					</span>
-				</h2>
-				<h2 class="tab__title tab__title_vitamin">
-					<span>Витамин D</span>
-					<span class="tab__title-icon">
-						<img src="./images/icon-vitamin.svg" alt="">
-					</span>
-				</h2>
-			</div>
-			<div class="tab__outputs">
-				<div class="tab__text tab__text_active">
-					<p>Наш наиболее полный и известный профиль проверки вашего здоровья, который обеспечивает очень полную оценку ваших метаболитов гормонов мочи. Гормоны помогают нам найти баланс, поскольку они активны в каждой клетке нашего тела, регулируя либо ключевые факторы, либо множество биохимических путей. Эти пути участвуют в управлении нашим здоровьем на ежедневной основе, как наше настроение, чувство энергии, память, сон и либидо. С другой стороны, общее самочувствие и уровень гормонов зависит от нашей окружающей среды, уровня стресса, токсинов, типа диеты и т. д. Таким образом, этот тест позволит вам оценить гормональный и метаболический баланс, пути детоксикации и риск многих заболеваний, включая рак.</p>	
-					<a href="./" class="tab__btn button">Купить</a>
-				</div>
-				<div class="tab__text">
-					<p>incididunt ut dolore aute officia qui exercitation officia nostrud ea aliquip in nulla velit enim qui veniam excepteur irure nulla eu proident elit nulla ullamco esse enim laborum proident duis deserunt dolore laborum dolore minim in do exercitation ut mollit duis veniam ipsum consequat incididunt mollit sunt excepteur nisi ex enim sunt fugiat laboris esse qui non dolor incididunt voluptate ullamco quis nostrud sit pariatur quis consectetur duis cupidatat deserunt incididunt dolore consequat non velit aliquip consectetur ex magna et cupidatat consequat sunt duis nostrud dolore officia eiusmod incididunt laborum irure fugiat esse incididunt est et qui exercitation cillum sit</p>
-					<a href="./" class="tab__btn button">Купить</a>
-				</div>
-				<div class="tab__text">
-					<p>et eiusmod incididunt nisi ut ad officia nulla anim eiusmod anim aliquip exercitation ipsum deserunt aute nulla sint culpa laborum adipisicing esse nostrud eu cupidatat officia cupidatat veniam tempor amet nostrud in ea fugiat pariatur tempor pariatur et duis aliqua exercitation labore officia laborum irure nostrud fugiat id proident esse ad consectetur exercitation laboris consectetur aliqua deserunt adipisicing Lorem eiusmod eu eu dolor voluptate ad tempor excepteur mollit nostrud officia mollit deserunt aute quis proident cupidatat irure esse excepteur sunt laboris ex commodo irure mollit tempor tempor minim consequat excepteur mollit laboris nisi et excepteur nulla exercitation et culpa qui</p>
-					<a href="./" class="tab__btn button">Купить</a>
-				</div>
-				<div class="tab__text">
-					<p>cupidatat nisi id Lorem eiusmod laboris sit qui voluptate et do minim nostrud officia et laboris cupidatat ea occaecat sit occaecat cillum tempor duis incididunt laboris excepteur commodo laborum culpa elit exercitation eu eiusmod dolor velit do eu qui officia eiusmod minim dolor ipsum in incididunt velit qui tempor tempor ex proident sit aliquip ullamco Lorem Lorem occaecat amet consequat dolore est deserunt consectetur officia est in quis fugiat deserunt duis aute ipsum veniam sunt quis qui sint qui laborum magna anim amet ut duis esse cillum consectetur deserunt consectetur aliquip cupidatat nulla enim sunt eu ea exercitation consectetur irure</p>
-					<a href="./" class="tab__btn button">Купить</a>
-				</div>
-				<div class="tab__text">
-					<p>quis non velit ipsum minim minim deserunt occaecat id labore ex sunt sunt dolor sint elit nisi aliquip sint eiusmod sit sint deserunt sint ut irure eiusmod aute veniam fugiat nulla amet voluptate id ex dolore mollit et deserunt occaecat quis esse consequat officia sunt laboris fugiat aute aute aute amet consectetur aliquip do irure ut proident nisi culpa quis id laboris anim aute elit velit mollit dolor laboris enim eiusmod voluptate duis reprehenderit eu nisi nostrud mollit non commodo do laboris eiusmod commodo nostrud culpa mollit dolore ut ut voluptate fugiat laborum esse consectetur laboris fugiat occaecat sit qui</p>
-					<a href="./" class="tab__btn button">Купить</a>
+		<div class="section__content">
+			<div class="section__article">
+				<h1 class="section__title title">Для кого предназначен <span>diagnost?</span></h1>
+				<div class="purpose__text">
+					<p>Это инновационная и современная платформа для людей любой демографической группы и любого возраста, которые хотели бы лучше понять свое здоровье. Наше здоровье влияет на качество нашей жизни, долголетие и наше поведение, однако все мы знаем что все это  носит взаимный характер и наш образ жизни и привычки оказывают сильное действие на наше самочувствие.</p>		
+					<p>Только знакомясь с нашим состоянием здоровья и благотворно влияя на него, мы можем улучшить и смягчить любые негативные воздействия на него, отсрочить или предотвратить многие болезни.</p>		
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<section class="section section_how how">
-	<h1 class="section__title section__title_wide title">Как работают диагности&shy;ческие тесты <span>diagnost?</span></h1>
-	<div class="section__content section__content_wide how__items">
-		<div class="how__item">
-			<div class="how__item-number">1</div>
-			<h3 class="how__item-title">Скрининг</h3>
-			<p class="how__item-text">Вы регистрируетесь на нашем сайте или загружаете приложение ДИАГНОСТ, заполняете анкету с указанием ваших симптомов и проблем со здоровьем.</p>
-		</div>
-		<div class="how__item">
-			<div class="how__item-number">2</div>
-			<h3 class="how__item-title">Измерение</h3>
-			<p class="how__item-text">На основании вашей анкеты мы порекомендуем тест, подходящий для вашего профиля. В качестве альтернативы вы можете выбрать тот тест, который вы предпочитаете из нашего списка тестов.</p>
-		</div>
-		<div class="how__item">
-			<div class="how__item-number">3</div>
-			<h3 class="how__item-title">Действие</h3>
-			<p class="how__item-text">Ваш тестовый комплект будет доставлен вам со всеми необходимыми материалами, включая подробные инструкции по сбору образца и конверт с предоплатой для отправки обратно в нашу лабораторию.</p>
-		</div>
-		<div class="how__item">
-			<div class="how__item-number">4</div>
-			<h3 class="how__item-title">Результат</h3>
-			<p class="how__item-text">Как только мы получим ваш образец, он будет немедленно обработан и проанализирован.</p>
-		</div>
-		<div class="how__item">
-			<div class="how__item-number">5</div>
-			<h3 class="how__item-title">Заключение</h3>
-			<p class="how__item-text">Вы получите результаты онлайн в личном и защищенном аккаунте, включая подробную и простую для понимания интерпретацию этих результатов и рекомендуемые действия.</p>
-		</div>
-	</div>
-</section>
-<section class="section section_where where">
-	<div class="section__decor">
-		<svg class="where__decor1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="where__decor2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="where__decor3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="where__decor4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="where__decor5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="where__decor6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-		<svg class="where__decor7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
-	</div>
-	<div class="section__content">
-		<div class="section__article">
-			<h1 class="section__title title">Где анализируются образцы <span>diagnost?</span></h1>
-			<div class="where__text">
-				<p>Мы используем ведущие инновационные лаборатории в Соединенных Штатах Америки и Европе, с широким спектром передовых и новаторских технологий, чтобы получить самые передовые представления о вашем здоровье. Качество и точность являются одними из наших основных ценностей, поэтому все наши партнерские лаборатории сертифицированы и соответствуют надлежащей лабораторной практике (стандарт GLP).</p>
+	</section>
+	<section class="section section_offers offers">
+		<h1 class="section__title section__title_wide title">Что предлагает<span>diagnost?</span></h1>
+		<div class="offer__slider slider slider_offer">
+			<div class="slider__items owl-carousel">
+				<div class="slider__item">
+					<img src="./images/slide_icon_1.svg" alt="" class="slider__icon">
+					<div class="slider__text">Cпециальный и высокоточный анализ ваших клинических и биохимических показателей с последующими персонализированными рекомендациями и решениями</div>
+				</div>
+				<div class="slider__item">
+					<img src="./images/slide_icon_2.svg" alt="" class="slider__icon">
+					<div class="slider__text">Четкое, профессиональное толкование и объяснение ваших результатов</div>
+				</div>
+				<div class="slider__item">
+					<img src="./images/slide_icon_3.svg" alt="" class="slider__icon">
+					<div class="slider__text">Онлайн поддержка и консультации с международными специалистами в области превентивной медицины, эндокринологии и анти-возрастной медицины (антиэйджинг)</div>
+				</div>
+				<div class="slider__item">
+					<img src="./images/slide_icon_4.svg" alt="" class="slider__icon">
+					<div class="slider__text">Удобное и интуитивно понятное отслеживание ваших результатов</div>
+				</div>
+				<div class="slider__item">
+					<img src="./images/slide_icon_5.svg" alt="" class="slider__icon">
+					<div class="slider__text">индивидуальная настройка и корректировка вашего плана питания</div>
+				</div>
+				<div class="slider__item">
+					<img src="./images/slide_icon_6.svg" alt="" class="slider__icon">
+					<div class="slider__text">уникальные программы для стимулирования регенеративных процессов против старения и улучшения качества жизни</div>
+				</div>
+			</div>
+			<div class="slider__nav">
+				<div class="slider__dots"></div>
 			</div>
 		</div>
-	</div>		
-</section>
-<section class="section section_application application">
-	<div class="section__decor">
-		<img class="application__decor1" src="./images/screenmob.png" alt="">
-		<svg class="application__decor2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
-		<svg class="application__decor3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
-		<svg class="application__decor4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
-		<svg class="application__decor5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
-	</div>
-	<div class="section__content">
-		<div class="section__article">
-			<h1 class="section__title title">Приложение <span>diagnost</span></h1>
-			<div class="application__text">
-				<p>Для того, чтобы вы могли отслеживать показатели своего здоровья в любое время и в любом месте, вы можете это сделать с нашим приложением ДИАГНОСТ iOS, которое мы создали специально для вас.</p>
+	</section>
+	<section class="section section_testing testing">
+		<div class="section__decor">
+			<svg class="testing__decor1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50, 15 100, 100 0, 100"/></svg>
+			<svg class="testing__decor2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50, 15 100, 100 0, 100"/></svg>
+			<svg class="testing__decor3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50, 15 100, 100 0, 100"/></svg>
+			<svg class="testing__decor4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50, 15 100, 100 0, 100"/></svg>
+			<svg class="testing__decor5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50, 15 100, 100 0, 100"/></svg>
+			<svg class="testing__decor6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50, 15 100, 100 0, 100"/></svg>
+		</div>
+		<div class="section__content">
+			<div class="section__article">
+				<h1 class="section__title title">Что тестирует <span>diagnost?</span></h1>
+				<div class="testing__text">
+					<p>В наших тестах используются различные биологические материалы, такие как слюна, сухая моча или сухая капля крови в зависимости от типа теста и анализируемых параметров. Например, чтобы проверить, сбалансирован ли ваш уровень гормонов, ДИАГНОСТ использует сухую мочу, для того чтобы проверить значения метаболитов ваших гормонов. На основании этого мы можем сделать выводы относительно вашего гормонального баланса.</p>
+				</div>
 			</div>
-			<div class="application__buttons">
-				<a href="./" class="application__button button">Скачать</a>
-				<a href="./" class="application__button button button_lilac">Подробнее</a>
+		</div>		
+	</section>
+	<section class="section section_knows knows">
+		<div class="section__decor">
+			<img class="knows__decor1" src="./images/screenapp.png" alt="">
+			<svg class="knows__decor2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
+			<svg class="knows__decor3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
+			<svg class="knows__decor4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
+			<svg class="knows__decor5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
+			<svg class="knows__decor6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
+		</div>
+		<div class="section__content">
+			<div class="section__article">
+				<h1 class="section__title title">Что вы узнаете, получив отчет <span>diagnost?</span></h1>
+				<div class="knows__text">
+					<p>Как только мы получим ваши результаты, команда врачей и специалистов интерпретирует их для вас в соответствии с вашими симптомами и приоритетами, ранее определенными в заполненной вами анкете. Мы определим, что и как в вашем индивидуальном случае нужно исправить, чтобы быть в балансе, а именно:</p>
+					<p>какие клинические и биохимические параметры соответствуют вашим симптомам и что происходит внутри вашего организма;</p>
+					<p>каковы нормальные и оптимальные уровни анти-возрастных параметров, и какой ваш текущий статус относительно этих показателей;</p>
+					<p>какие действия необходимо предпринять для достижения долгосрочного баланса вашего здоровья, устранения негативных симптомов и предотвращения заболеваний.</p>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<section class="section section_checkup checkup">
+		<h1 class="section__title section__title_wide title">Чекапы <span>diagnost</span></h1>
+		<div class="section__content section__content_wide checkup__content">
+			<div class="checkup__box">
+				<img src="./images/box.png" alt="">
+			</div>
+			<div class="checkup__tab tab">
+				<div class="tab__titles">
+					<h2 class="tab__title tab__title_base tab__title_active">
+						<span class="tab__title-name">Базовый</span>
+						<span class="tab__title-icon">	
+							<img src="./images/icon-base.svg" alt="">
+						</span>
+					</h2>
+					<h2 class="tab__title tab__title_full">
+						<span class="tab__title-name">Полный</span>
+						<span class="tab__title-icon">
+							<img src="./images/icon-full.svg" alt="">
+						</span>
+					</h2>
+					<h2 class="tab__title tab__title_metabo">
+						<span class="tab__title-name">Метабокардио</span>
+						<span class="tab__title-icon">
+							<img src="./images/icon-metabo.svg" alt="">
+						</span>
+					</h2>
+					<h2 class="tab__title tab__title_sleep">
+						<span class="tab__title-name">Сон</span>
+						<span class="tab__title-icon">
+							<img src="./images/icon-sleep.svg" alt="">
+						</span>
+					</h2>
+					<h2 class="tab__title tab__title_vitamin">
+						<span class="tab__title-name">Витамин D</span>
+						<span class="tab__title-icon">
+							<img src="./images/icon-vitamin.svg" alt="">
+						</span>
+					</h2>
+				</div>
+				<div class="tab__outputs">
+					<div class="tab__text tab__text_active">
+						<p>Наш наиболее полный и известный профиль проверки вашего здоровья, который обеспечивает очень полную оценку ваших метаболитов гормонов мочи. Гормоны помогают нам найти баланс, поскольку они активны в каждой клетке нашего тела, регулируя либо ключевые факторы, либо множество биохимических путей. Эти пути участвуют в управлении нашим здоровьем на ежедневной основе, как наше настроение, чувство энергии, память, сон и либидо. С другой стороны, общее самочувствие и уровень гормонов зависит от нашей окружающей среды, уровня стресса, токсинов, типа диеты и т. д. Таким образом, этот тест позволит вам оценить гормональный и метаболический баланс, пути детоксикации и риск многих заболеваний, включая рак.</p>	
+						<a href="./" class="tab__btn button">Купить</a>
+					</div>
+					<div class="tab__text">
+						<p>eu qui ad Lorem esse dolor Lorem labore sint ea proident incididunt ex nisi est commodo in culpa ea deserunt adipisicing cupidatat anim dolore ea laboris veniam aute est do culpa eu culpa et sunt consectetur exercitation irure culpa pariatur ipsum eu minim id anim laborum consequat nisi nostrud laborum cupidatat occaecat pariatur Lorem aliqua aliquip reprehenderit reprehenderit non aliqua non aliquip laborum nostrud enim nisi nulla deserunt excepteur cillum laborum ipsum velit veniam anim deserunt duis culpa proident labore nisi mollit nostrud est culpa officia laborum ad officia irure do nostrud commodo velit voluptate veniam magna mollit ullamco incididunt</p>
+						<a href="./" class="tab__btn button">Купить</a>
+					</div>
+					<div class="tab__text">
+						<p>adipisicing elit duis mollit qui ut in quis consectetur deserunt deserunt laboris aliqua occaecat dolor consectetur fugiat nostrud occaecat quis mollit aliqua reprehenderit proident nulla laborum laboris sit sunt officia velit duis ea cupidatat quis sit est id ea aliqua ad ex eu aliquip id officia Lorem duis Lorem nostrud anim ea eu enim mollit eiusmod nisi ut deserunt nulla enim tempor dolore occaecat amet non laborum labore labore culpa aute do laboris duis nostrud duis dolore labore aliqua consectetur labore eiusmod qui sunt mollit adipisicing ea cillum irure velit sunt quis exercitation officia do culpa consequat proident nostrud ad</p>
+						<a href="./" class="tab__btn button">Купить</a>
+					</div>
+					<div class="tab__text">
+						<p>esse nisi cupidatat consectetur cillum pariatur cillum nostrud aute commodo laboris ipsum qui tempor ut incididunt aute sunt irure labore sunt excepteur do cupidatat ut reprehenderit officia est sit enim dolor ipsum magna tempor magna excepteur excepteur velit cupidatat dolor ex consequat duis proident commodo quis in anim sunt laborum Lorem cupidatat id eu velit minim dolore minim eiusmod elit commodo aliqua anim duis sunt nostrud culpa reprehenderit nisi laboris amet commodo sit veniam minim qui quis duis laborum voluptate ea labore do est dolor non ipsum nisi sit amet aliqua cillum incididunt qui velit duis commodo reprehenderit anim ex</p>
+						<a href="./" class="tab__btn button">Купить</a>
+					</div>
+					<div class="tab__text">
+						<p>eiusmod incididunt sunt nulla exercitation sunt magna sunt aute laborum esse ad ex enim ipsum Lorem eiusmod esse nulla eu labore nulla qui sit ea qui ipsum elit in qui veniam et officia dolore aliquip enim excepteur sint id cillum quis cillum id dolor consequat aute incididunt nostrud consequat culpa culpa voluptate in officia nisi reprehenderit nostrud nostrud incididunt dolor quis sit cupidatat veniam laborum laboris eiusmod veniam eiusmod nulla dolore exercitation ut veniam mollit veniam id sit ad minim magna voluptate ut Lorem fugiat cillum voluptate aute consequat velit dolor eu nisi irure id nostrud qui eu sit ipsum</p>
+						<a href="./" class="tab__btn button">Купить</a>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<footer class="footer">
+	</section>
+	<section class="section section_how how">
+		<h1 class="section__title section__title_wide title">Как работают диагности&shy;ческие тесты <span>diagnost?</span></h1>
+		<div class="section__content section__content_wide how__items">
+			<div class="how__item">
+				<div class="how__item-number">1</div>
+				<h3 class="how__item-title">Скрининг</h3>
+				<p class="how__item-text">Вы регистрируетесь на нашем сайте или загружаете приложение ДИАГНОСТ, заполняете анкету с указанием ваших симптомов и проблем со здоровьем.</p>
+			</div>
+			<div class="how__item">
+				<div class="how__item-number">2</div>
+				<h3 class="how__item-title">Измерение</h3>
+				<p class="how__item-text">На основании вашей анкеты мы порекомендуем тест, подходящий для вашего профиля. В качестве альтернативы вы можете выбрать тот тест, который вы предпочитаете из нашего списка тестов.</p>
+			</div>
+			<div class="how__item">
+				<div class="how__item-number">3</div>
+				<h3 class="how__item-title">Действие</h3>
+				<p class="how__item-text">Ваш тестовый комплект будет доставлен вам со всеми необходимыми материалами, включая подробные инструкции по сбору образца и конверт с предоплатой для отправки обратно в нашу лабораторию.</p>
+			</div>
+			<div class="how__item">
+				<div class="how__item-number">4</div>
+				<h3 class="how__item-title">Результат</h3>
+				<p class="how__item-text">Как только мы получим ваш образец, он будет немедленно обработан и проанализирован.</p>
+			</div>
+			<div class="how__item">
+				<div class="how__item-number">5</div>
+				<h3 class="how__item-title">Заключение</h3>
+				<p class="how__item-text">Вы получите результаты онлайн в личном и защищенном аккаунте, включая подробную и простую для понимания интерпретацию этих результатов и рекомендуемые действия.</p>
+			</div>
+		</div>
+	</section>
+	<section class="section section_where where">
+		<div class="section__decor">
+			<svg class="where__decor1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="where__decor2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="where__decor3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="where__decor4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="where__decor5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="where__decor6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+			<svg class="where__decor7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/></svg>
+		</div>
+		<div class="section__content">
+			<div class="section__article">
+				<h1 class="section__title title">Где анализируются образцы <span>diagnost?</span></h1>
+				<div class="where__text">
+					<p>Мы используем ведущие инновационные лаборатории в Соединенных Штатах Америки и Европе, с широким спектром передовых и новаторских технологий, чтобы получить самые передовые представления о вашем здоровье. Качество и точность являются одними из наших основных ценностей, поэтому все наши партнерские лаборатории сертифицированы и соответствуют надлежащей лабораторной практике (стандарт GLP).</p>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<section class="section section_application application">
+		<div class="section__decor">
+			<img class="application__decor1" src="./images/screenmob.png" alt="">
+			<svg class="application__decor2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
+			<svg class="application__decor3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
+			<svg class="application__decor4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
+			<svg class="application__decor5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100"/></svg>
+		</div>
+		<div class="section__content">
+			<div class="section__article">
+				<h1 class="section__title title">Приложение <span>diagnost</span></h1>
+				<div class="application__text">
+					<p>Для того, чтобы вы могли отслеживать показатели своего здоровья в любое время и в любом месте, вы можете это сделать с нашим приложением ДИАГНОСТ iOS, которое мы создали специально для вас.</p>
+				</div>
+				<div class="application__buttons">
+					<a href="./" class="application__button button">Скачать</a>
+					<a href="./" class="application__button button button_lilac">Подробнее</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
 	<div class="footer__content">
 		<div class="footer__subscribe">
 			<h2 class="title title_footer footer__title">
@@ -351,28 +356,28 @@
 	<div class="footer__navi navi navi_footer">
 		<div class="navi__container">
 			<ul class="navi__menu menu">
-				<li class="menu-item"><a href="./">Главная</a></li>
-				<li class="menu-item menu-item-has-children"><a href="./">Принципы работы</a>
-					<ul class="sub-menu">
-						<li class="menu-item"><a href="./">Consectetur</a></li>
-						<li class="menu-item"><a href="./">Adipisicing</a></li>
-						<li class="menu-item"><a href="./">Reprehenderit</a></li>
-						<li class="menu-item"><a href="./">Ipsum dolor</a></li>
+				<li class="menu__item"><a href="./">Главная</a></li>
+				<li class="menu__item menu__item_haschild"><a href="./">Принципы работы</a>
+					<ul class="menu_submenu">
+						<li class="menu__item"><a href="./">Consectetur</a></li>
+						<li class="menu__item"><a href="./">Adipisicing</a></li>
+						<li class="menu__item"><a href="./">Reprehenderit</a></li>
+						<li class="menu__item"><a href="./">Ipsum dolor</a></li>
 					</ul>
 				</li>
-				<li class="menu-item menu-item-has-children"><a href="./">Чекапы</a>
-					<ul class="sub-menu">
-						<li class="menu-item"><a href="./">Базовый</a></li>
-						<li class="menu-item"><a href="./">Полный</a></li>
-						<li class="menu-item"><a href="./">Метабокардио</a></li>
-						<li class="menu-item"><a href="./">Сон</a></li>
-						<li class="menu-item"><a href="./">Витамин D</a></li>
+				<li class="menu__item menu__item_haschild"><a href="./">Чекапы</a>
+					<ul class="menu_submenu">
+						<li class="menu__item"><a href="./">Базовый</a></li>
+						<li class="menu__item"><a href="./">Полный</a></li>
+						<li class="menu__item"><a href="./">Метабокардио</a></li>
+						<li class="menu__item"><a href="./">Сон</a></li>
+						<li class="menu__item"><a href="./">Витамин D</a></li>
 					</ul>
 				</li>
-				<li class="menu-item"><a href="./">Приложение</a></li>
-				<li class="menu-item"><a href="./">FAQ</a></li>
-				<li class="menu-item"><a href="./">О нас</a></li>
-				<li class="menu-item"><a href="./">Контакты</a></li>
+				<li class="menu__item"><a href="./">Приложение</a></li>
+				<li class="menu__item"><a href="./">FAQ</a></li>
+				<li class="menu__item"><a href="./">О нас</a></li>
+				<li class="menu__item"><a href="./">Контакты</a></li>
 			</ul>
 			<div class="navi__lang">
 				<a class="navi__lang-active" href="./">RU</a>
@@ -396,5 +401,4 @@
 <script type="text/javascript" charset="utf-8" src="jquery.min.js"></script>
 <script src="common.js"></script> 
 </body> 
-</html> 
-
+</html>

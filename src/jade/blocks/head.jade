@@ -1,46 +1,48 @@
 header.navi.navi_top(data-top_offset='50', data-bg_color='#5922e1')
   .navi__container
-    span.menu-open
+    span.menu__open
     ul.navi__menu.menu
-      span.menu-close
-      li.menu-item
+      span.menu__close
+      li.menu__item
         a(href='./') Главная
-      li.menu-item.menu-item-has-children
+      li.menu__item.menu__item_haschild
         a(href='./') Принципы работы
-        ul.sub-menu
-          li.menu-item
+        ul.menu_submenu
+          li.menu__item
             a(href='./') Consectetur
-          li.menu-item
+          li.menu__item
             a(href='./') Adipisicing
-          li.menu-item
+          li.menu__item
             a(href='./') Reprehenderit
-          li.menu-item
+          li.menu__item
             a(href='./') Ipsum dolor
-      li.menu-item.menu-item-has-children
+      li.menu__item.menu__item_haschild
         a(href='./') Чекапы
-        ul.sub-menu
-          li.menu-item
+        ul.menu_submenu
+          li.menu__item
             a(href='./') Базовый
-          li.menu-item
+          li.menu__item
             a(href='./') Полный
-          li.menu-item
+          li.menu__item
             a(href='./') Метабокардио
-          li.menu-item
+          li.menu__item
             a(href='./') Сон
-          li.menu-item
+          li.menu__item
             a(href='./') Витамин D
-      li.menu-item
+      li.menu__item
         a(href='./') Приложение
-      li.menu-item
+      li.menu__item
         a(href='./') FAQ
-      li.menu-item
+      li.menu__item
         a(href='./') О нас
-      li.menu-item
+      li.menu__item
         a(href='./') Контакты
     .navi__lang
       a.navi__lang-active(href='./') RU
       a(href='./') EN
-    a.navi__login(href='./')
+    .navi__user.user
+      .user__wrapper
+        a.user__link(href='./') Профиль
+        a.user__link(href='./') История покупок
     a.navi__cart(href='./')
       span.navi__cart-counter.navi__cart-counter_noempty 99
-

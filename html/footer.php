@@ -18,28 +18,28 @@
 	<div class="footer__navi navi navi_footer">
 		<div class="navi__container">
 			<ul class="navi__menu menu">
-				<li class="menu-item"><a href="./">Главная</a></li>
-				<li class="menu-item menu-item-has-children"><a href="./">Принципы работы</a>
-					<ul class="sub-menu">
-						<li class="menu-item"><a href="./">Consectetur</a></li>
-						<li class="menu-item"><a href="./">Adipisicing</a></li>
-						<li class="menu-item"><a href="./">Reprehenderit</a></li>
-						<li class="menu-item"><a href="./">Ipsum dolor</a></li>
+				<li class="menu__item"><a href="./">Главная</a></li>
+				<li class="menu__item menu__item_haschild"><a href="./">Принципы работы</a>
+					<ul class="menu_submenu">
+						<li class="menu__item"><a href="./">Consectetur</a></li>
+						<li class="menu__item"><a href="./">Adipisicing</a></li>
+						<li class="menu__item"><a href="./">Reprehenderit</a></li>
+						<li class="menu__item"><a href="./">Ipsum dolor</a></li>
 					</ul>
 				</li>
-				<li class="menu-item menu-item-has-children"><a href="./">Чекапы</a>
-					<ul class="sub-menu">
-						<li class="menu-item"><a href="./">Базовый</a></li>
-						<li class="menu-item"><a href="./">Полный</a></li>
-						<li class="menu-item"><a href="./">Метабокардио</a></li>
-						<li class="menu-item"><a href="./">Сон</a></li>
-						<li class="menu-item"><a href="./">Витамин D</a></li>
+				<li class="menu__item menu__item_haschild"><a href="./">Чекапы</a>
+					<ul class="menu_submenu">
+						<li class="menu__item"><a href="./">Базовый</a></li>
+						<li class="menu__item"><a href="./">Полный</a></li>
+						<li class="menu__item"><a href="./">Метабокардио</a></li>
+						<li class="menu__item"><a href="./">Сон</a></li>
+						<li class="menu__item"><a href="./">Витамин D</a></li>
 					</ul>
 				</li>
-				<li class="menu-item"><a href="./">Приложение</a></li>
-				<li class="menu-item"><a href="./">FAQ</a></li>
-				<li class="menu-item"><a href="./">О нас</a></li>
-				<li class="menu-item"><a href="./">Контакты</a></li>
+				<li class="menu__item"><a href="./">Приложение</a></li>
+				<li class="menu__item"><a href="./">FAQ</a></li>
+				<li class="menu__item"><a href="./">О нас</a></li>
+				<li class="menu__item"><a href="./">Контакты</a></li>
 			</ul>
 			<div class="navi__lang"><a href="./" class="navi__lang-active">RU</a><a href="./">EN</a></div>
 		</div>
