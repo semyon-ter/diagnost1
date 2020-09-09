@@ -23,7 +23,7 @@ gulp.task 'jade', ->
 
 # STYLUS
 gulp.task 'stylus', ()->
-  gulp.src('src/stylus/style.styl').pipe(stylus({compress:true})).pipe(gulp.dest('./'))
+  gulp.src('src/stylus/style.styl').pipe(stylus({compress:false})).pipe(gulp.dest('./'))
 
 # COFFEE SCRIPT
 gulp.task 'coffee_admin', ()->

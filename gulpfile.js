@@ -24,7 +24,7 @@ gulp.task('jade', function() {
 
 gulp.task('stylus', function() {
   return gulp.src('src/stylus/style.styl').pipe(stylus({
-    compress: true
+    compress: false
   })).pipe(gulp.dest('./'));
 });
 
