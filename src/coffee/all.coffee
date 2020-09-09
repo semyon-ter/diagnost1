@@ -128,7 +128,21 @@ Sc =
         if n == 1
           $(@).addClass('disable')        
       else
-        $(@).addClass('disable')              
+        $(@).addClass('disable')
+
+    #edit input
+    $('._edit-bt').click ->
+      t = $(@)
+      p = t.closest('._edit-parent')
+      o = p.find('._edit-obj')
+      s = p.find('._edit-save')
+      o.removeClass('disabled')
+      t.addClass('none')
+      s.removeClass('none')
+      s.click ->
+        o.addClass('disabled')
+        t.removeClass('none')
+        s.addClass('none')
 
     Sc.initPerfectScrollBar()
 

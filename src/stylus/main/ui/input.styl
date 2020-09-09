@@ -23,6 +23,8 @@ input, div, textarea, select
 		&.form__input_width-1
 			maxWth 280px
 			w 100%
+		&.disabled
+			pEvent none	
 			
 .select
 	dinblock()
@@ -114,7 +116,9 @@ input, div, textarea, select
 			&:before
 				tf(rotate(0deg))
 	&.select_minw1
-		minWth 215px			
+		minWth 215px
+	&.disabled
+		pEvent none				
 			
 .chexbox
 	posrel()
