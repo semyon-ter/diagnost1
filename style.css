@@ -6466,6 +6466,10 @@ ol.list.list_type-1 li:before {
   display: block;
   width: 62%;
 }
+.icon.ic-cart {
+  width: 214px;
+  vertical-align: top;
+}
 .ava {
   display: inline-block;
   vertical-align: top;
@@ -7976,6 +7980,9 @@ select.i::-webkit-input-placeholder {
     width: 75px;
     height: 75px;
   }
+  .icon.ic-cart {
+    width: 138px;
+  }
   .decor {
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
@@ -8275,6 +8282,9 @@ select.i::-webkit-input-placeholder {
   .icon.ic-close2 {
     width: 15px;
     height: 15px;
+  }
+  .icon.ic-cart {
+    width: 90px;
   }
   .decor {
     -webkit-transform: scale(0.6);

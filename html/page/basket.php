@@ -9,9 +9,7 @@
 		<h1 class="section__title title title_color-1"><span>Корзина</span></h1>
 		<div class="indent i-3 border-decor border-decor__parent border-decor__color-1">
 			<div class="indent i-3 flex f-middle f-mob-wrap f-between">
-				<div class="icon ic-close2 pointer indent_mr-1 f-shrink-0"></div><a href="#" class="flex f-shrink-0 f-middle dev-dn-mob">
-					<div class="icon ic-product dev-dn-pad"></div>
-					<div class="icon ic-checkup indent_ml-1"><img src="src-main/images/icon-metabo.svg"/></div></a>
+				<div class="icon ic-close2 pointer indent_mr-1 f-shrink-0"></div><a href="#" class="flex f-shrink-0 f-middle dev-dn-mob"><img src="pics/icons/basket-1.png" class="icon ic-cart"/></a>
 				<div class="content-box content-box__color-1 flex f-center p__mb-none col-37 col-pad-42 f-shrink-0 content-box__tal">
 					<p><a href="#"><b>Метабокардио чекап</b></a></p>
 				</div>
@@ -28,9 +26,7 @@
 				</div>
 			</div>
 			<div class="indent i-3 flex f-middle f-mob-wrap f-between">
-				<div class="icon ic-close2 pointer indent_mr-1 f-shrink-0"></div><a href="#" class="flex f-shrink-0 f-middle dev-dn-mob">
-					<div class="icon ic-product dev-dn-pad"></div>
-					<div class="icon ic-checkup indent_ml-1"><img src="src-main/images/icon-full.svg"/></div></a>
+				<div class="icon ic-close2 pointer indent_mr-1 f-shrink-0"></div><a href="#" class="flex f-shrink-0 f-middle dev-dn-mob"><img src="pics/icons/basket-2.png" class="icon ic-cart"/></a>
 				<div class="content-box content-box__color-1 flex f-center p__mb-none col-37 col-pad-42 f-shrink-0 content-box__tal">
 					<p><a href="#"><b>Полный чекап</b></a></p>
 				</div>
