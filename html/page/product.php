@@ -32,8 +32,9 @@
 		</div>
 		<div class="row">
 			<div class="col col-59 col-pad-100 col-desk-45">
-				<div class="posrel"><img src="src-main/images/box.png" class="dev-db-main"/>
-					<div class="decor decor__circle-1"><img src="src-main/images/icon-metabo.svg" class="decor__img"/></div>
+				<div class="posrel"><img src="pics/img/box-icon.png" class="dev-db-main"/>
+					<!--.decor.decor__circle-1img.decor__img(src="src-main/images/icon-metabo.svg")
+					-->
 				</div>
 			</div>
 			<div class="col col-41 col-pad-100 col-desk-55">
