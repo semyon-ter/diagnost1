@@ -2,7 +2,7 @@
 <footer class="footer footer_fix-bottom">
 	<div class="footer__content">
 		<div class="footer__subscribe">
-			<h2 class="title title_footer footer__title">Подпишитесь на нашу<span>рассылку</span></h2>
+			<h2 class="title title_footer footer__title">Подпишитесь на нашу <span>рассылку</span></h2>
 			<p>Актуальные новости по теме здорового образа жизни и эксклюзивные предложения от нашей компании.</p>
 			<form action="./" class="footer__subscribe-form form form_subscribe">
 				<input type="email" placeholder="Email" class="form__input form__input_email"/>
@@ -20,20 +20,20 @@
 			<ul class="navi__menu menu">
 				<li class="menu__item"><a href="./">Главная</a></li>
 				<li class="menu__item menu__item_haschild"><a href="./">Принципы работы</a>
-					<ul class="menu_submenu">
-						<li class="menu__item"><a href="./">Consectetur</a></li>
-						<li class="menu__item"><a href="./">Adipisicing</a></li>
-						<li class="menu__item"><a href="./">Reprehenderit</a></li>
-						<li class="menu__item"><a href="./">Ipsum dolor</a></li>
+					<ul class="menu__submenu">
+						<li class="menu__submenu-item"><a href="./">Consectetur</a></li>
+						<li class="menu__submenu-item"><a href="./">Adipisicing</a></li>
+						<li class="menu__submenu-item"><a href="./">Reprehenderit</a></li>
+						<li class="menu__submenu-item"><a href="./">Ipsum dolor</a></li>
 					</ul>
 				</li>
 				<li class="menu__item menu__item_haschild"><a href="./">Чекапы</a>
-					<ul class="menu_submenu">
-						<li class="menu__item"><a href="./">Базовый</a></li>
-						<li class="menu__item"><a href="./">Полный</a></li>
-						<li class="menu__item"><a href="./">Метабокардио</a></li>
-						<li class="menu__item"><a href="./">Сон</a></li>
-						<li class="menu__item"><a href="./">Витамин D</a></li>
+					<ul class="menu__submenu">
+						<li class="menu__submenu-item"><a href="./">Базовый</a></li>
+						<li class="menu__submenu-item"><a href="./">Полный</a></li>
+						<li class="menu__submenu-item"><a href="./">Метабокардио</a></li>
+						<li class="menu__submenu-item"><a href="./">Сон</a></li>
+						<li class="menu__submenu-item"><a href="./">Витамин D</a></li>
 					</ul>
 				</li>
 				<li class="menu__item"><a href="./">Приложение</a></li>

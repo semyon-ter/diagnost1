@@ -4,26 +4,26 @@
 		<ul class="navi__menu menu"><span class="menu__close"></span>
 			<li class="menu__item"><a href="./">Главная</a></li>
 			<li class="menu__item menu__item_haschild"><a href="./">Принципы работы</a>
-				<ul class="menu_submenu">
-					<li class="menu__item"><a href="./">Consectetur</a></li>
-					<li class="menu__item"><a href="./">Adipisicing</a></li>
-					<li class="menu__item"><a href="./">Reprehenderit</a></li>
-					<li class="menu__item"><a href="./">Ipsum dolor</a></li>
+				<ul class="menu__submenu">
+					<li class="menu__submenu-item"><a href="./">Consectetur</a></li>
+					<li class="menu__submenu-item"><a href="./">Adipisicing</a></li>
+					<li class="menu__submenu-item"><a href="./">Reprehenderit</a></li>
+					<li class="menu__submenu-item"><a href="./">Ipsum dolor</a></li>
 				</ul>
 			</li>
 			<li class="menu__item menu__item_haschild"><a href="./">Чекапы</a>
-				<ul class="menu_submenu">
-					<li class="menu__item"><a href="./">Базовый</a></li>
-					<li class="menu__item"><a href="./">Полный</a></li>
-					<li class="menu__item"><a href="./">Метабокардио</a></li>
-					<li class="menu__item"><a href="./">Сон</a></li>
-					<li class="menu__item"><a href="./">Витамин D</a></li>
+				<ul class="menu__submenu">
+					<li class="menu__submenu-item"><a href="./">Базовый</a></li>
+					<li class="menu__submenu-item"><a href="./">Полный</a></li>
+					<li class="menu__submenu-item"><a href="./">Метабокардио</a></li>
+					<li class="menu__submenu-item"><a href="./">Сон</a></li>
+					<li class="menu__submenu-item"><a href="./">Витамин D</a></li>
 				</ul>
 			</li>
-			<li class="menu__item"><a href="./">Приложение</a></li>
-			<li class="menu__item"><a href="./">FAQ</a></li>
-			<li class="menu__item"><a href="./">О нас</a></li>
-			<li class="menu__item"><a href="./">Контакты</a></li>
+			<li class="menu__item"><a href="./page.html">Приложение</a></li>
+			<li class="menu__item"><a href="./page.html">FAQ</a></li>
+			<li class="menu__item"><a href="./page.html">О нас</a></li>
+			<li class="menu__item"><a href="./page.html">Контакты</a></li>
 		</ul>
 		<div class="navi__lang"><a href="./" class="navi__lang-active">RU</a><a href="./">EN</a></div>
 		<div class="navi__user user">
