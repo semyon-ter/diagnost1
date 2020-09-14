@@ -1,5 +1,5 @@
 
-<header data-top_offset="50" data-bg_color="#5922e1" class="navi navi_top">
+<header data-top_offset="50" data-bg_color="#5922e1" class="navi navi_top _header-h">
 	<div class="navi__container"><span class="menu__open"></span>
 		<ul class="navi__menu menu"><span class="menu__close"></span>
 			<li class="menu__item"><a href="./">Главная</a></li>

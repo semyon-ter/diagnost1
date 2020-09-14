@@ -1,7 +1,11 @@
 var Sc;
 
 Sc = {
-  resize: function() {},
+  resize: function() {
+    //fake head
+    Sc.fhead = $('._header-h').outerHeight();
+    return $('.fake-head').css('height', Sc.fhead);
+  },
   scroll: function() {},
   initPerfectScrollBar: function() {
     var r;
