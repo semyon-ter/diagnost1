@@ -7,6 +7,7 @@
 		<meta name="description" content="">
 		<title>Новый сайт        </title>
 		<link href="src-main/style.css" rel="stylesheet" type="text/css">
+		<link href="src-main/media.css" rel="stylesheet" type="text/css">
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link rel="icon" href="favicon.png" type="image/x-icon">
 		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">

@@ -44,8 +44,8 @@
 			<div class="navi__lang"><a href="./" class="navi__lang-active">RU</a><a href="./">EN</a></div>
 		</div>
 	</div>
-	<div class="section__content section__content_footer footer__bottom">
-		<div class="footer__bottom-copy">© 2020 Health Monitor Consulting Ltd</div>
+	<div class="section__content footer__bottom">
+		<div class="footer__bottom-copy">© 2020 Health Monitor Consulting Ltd</div><a href="./" class="footer__bottom-license">Пользовательское соглашение, правила использования и обработки информации (cookies)</a>
 		<div class="footer__bottom-developed">Developed by <a href="./"></a></div>
 	</div>
 </footer>

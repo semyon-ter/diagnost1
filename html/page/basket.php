@@ -45,7 +45,7 @@
 		</div>
 		<div class="indent i-3 flex f-flexDir-mob-column">
 			<input type="text" placeholder="Промо-код" class="form__input v2 form__input_email indent_mr-2 form__input_width-1"/>
-			<button class="button button__color-2 button__px-1">ПРИМЕНИТЬ</button>
+			<button class="btn btn-px-1 btn-color-2">ПРИМЕНИТЬ</button>
 		</div>
 		<div class="indent i-3">
 			<div class="border-decor border-decor__parent border-decor__color-1 item-title__border-none">
@@ -53,7 +53,7 @@
 				<div class="content-box content-box__color-1 content-box__links-color-1">
 					<p>Согласен с условиями <a href='#'>Публичной оферты</a></p>
 				</div>
-				<button class="button">ОФОРМИТЬ	</button>
+				<button class="btn btn-color-1">ОФОРМИТЬ	</button>
 			</div>
 		</div>
 	</div>

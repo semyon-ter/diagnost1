@@ -7517,6 +7517,65 @@ textarea.form__input.v2 {
   padding-left: 30px;
   padding-right: 30px;
 }
+.btn {
+  display: inline-flex;
+  vertical-align: top;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: GL;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: 1.04rem;
+  line-height: 1.9rem;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.btn.btn-color-1 {
+  background-color: #fb2a69;
+  color: #fff;
+}
+.btn.btn-color-1:hover {
+  background-color: #ec2323;
+}
+.btn.btn-color-2 {
+  background-color: #3767f6;
+  color: #fff;
+}
+.btn.btn-color-2:hover {
+  background-color: #134eff;
+}
+.btn.btn-color-3 {
+  background-color: #a46497;
+  color: #fff;
+}
+.btn.btn-color-3:hover {
+  background-color: #673ab7;
+}
+.btn.btn-px-1 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .page_about {
   z-index: 2;
   overflow: visible;
@@ -7917,6 +7976,10 @@ textarea.form__input.v2 {
     padding-right: 60px;
   }
   .button.btn__px-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .btn.btn-px-1 {
     padding-left: 20px;
     padding-right: 20px;
   }
