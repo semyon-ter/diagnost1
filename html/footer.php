@@ -4,10 +4,14 @@
 		<div class="footer__subscribe">
 			<h2 class="title title_footer footer__title">Подпишитесь на нашу <span>рассылку</span></h2>
 			<p>Актуальные новости по теме здорового образа жизни и эксклюзивные предложения от нашей компании.</p>
-			<form action="./" class="footer__subscribe-form form form_subscribe">
-				<input type="email" placeholder="Email" class="form__input form__input_email"/>
-				<input type="submit" value="Ok" class="form__submit button"/>
-			</form>
+			<div>
+				<form action="./" class="footer__subscribe-form form form_subscribe">
+					<p><span class="wpcf7-form-control-wrap email">
+							<input type="email" size="40" placeholder="Email" class="form__input form__input_email"/></span>
+						<input type="submit" value="Ok" class="form__submit button"/>
+					</p>
+				</form>
+			</div>
 		</div>
 		<div class="footer__social">
 			<h2 class="title title_footer footer__title">Мы в социальных <span>сетях</span></h2>
